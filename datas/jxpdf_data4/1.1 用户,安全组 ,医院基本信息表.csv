@@ -1,0 +1,5 @@
+,序号,表名称,类名称,业务名称,备注说
+1,1,CT_Hospital,User.CTHospital,医院信息,
+2,2,SS_User,User.SSUser,用户,
+3,3,SS_GROUP,User. SSGroup,安全组,
+4,4,SS_UserOtherLogonLoc,User. SSUserOtherLogonLoc,登录其他科室信息,

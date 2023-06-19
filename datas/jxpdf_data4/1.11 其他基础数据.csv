@@ -1,0 +1,6 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,MRC_BodyParts,User. CTCareProv,身体部位,"^MRC(""""BO"
+2,,PAC_BloodType,User.ORCOperation,血型,"^PAC(""BLD"
+3,,MRC_ObservationItem,,观察项(生命体征数据)    代码表维护,
+4,,MRC_ObservationGroup,,观察组,
+5,,MRC_ObservationGroupItems,,观察项组对应关系,

@@ -1,0 +1,9 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,Buy_date,购入日期,RowId,
+2,-2,Buy_time,购入时间,Text,
+3,-3,Buy_startno,开始号码,Text,
+4,-4,Buy_endno,结束号码,String,
+5,,Buy_user,购入人,,
+6,,Buy_loc,部门,,
+7,,Buy_currentno,当前可发放的号码,,
+8,,Buy_useflag,可用标志，1：可用；2：,,

@@ -1,0 +1,23 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,DHCORI_OEORI_Dr,表 oe_orditem 的指针,,
+2,-2,DHCORI_SkinTestCtcp_Dr,置皮试结果人,DR,OE_OrdItem
+3,3,DHCORI_SkinTestDate,置皮试结果日期,PK,
+4,-4,DHCORI_SkinTestTime,置皮试结果时间,Float,
+5,-5,DHCORI_RefundAuditStatus,退费审核状态,Date,
+6,-6,DHCORI_RefundAuditUser_Dr,退费审核用户,,
+7,-7,DHCORI_RefundAuditDate,退费审核日期,,
+8,-8,DHCORI_RefundAuditTime,退费审核时间,,
+9,9,DHCORI_RefundReason,退费审核原因,,
+10,-10,DHCORI_RefAuditLoc_DR,退费审核科室,DR,"OEC_Order_AdminStatus，
+E 完成，PRE 欲执行"
+11,11,DHCORI_PAALG_Dr,过敏表指针,,
+12,12,DHCORI_DisconUser_Dr,停止医嘱处理人,,
+13,,DHCORI_DisconDate,停止医嘱处理日期,,
+14,13,DHCORI_DisconTime,停止医嘱处理时间,,
+15,14,"DHCORI_MedAuditUser_Dr DHCORI_MedAuditDate DHCORI_MedAuditTime DHCORI_DispTimeList DHCORI_Approved DHCORI_ApprovedUser_dr DHCORI_ApprovedDate DHCORI_ApprovedTime DHCORI_SkinTestAuditCtcp_Dr DHCORI_SkinTestAuditDate DHCORI_SkinTestAuditTime DHCORI_LISReport_DR DHCORI_ConfirmFlag DHCORI_ConfirmDate
+DHCORI_ConfirmTime","领药审核人 领药审核日期领药审核时间发药时间列表
+记账/医保审核状态记账/医保审核人 记账/医保审核日期记账/医保审核时间皮试结果审核人
+皮试结果审核日期 皮试结果审核时间 接收第三方报告状态财务审核标志
+财务审核日期
+财务审核时间",DR,CT_Uom
+16,,DHCORI_ConfirmUser,财务审核人,,

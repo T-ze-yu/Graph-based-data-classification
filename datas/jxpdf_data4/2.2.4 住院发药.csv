@@ -1,0 +1,5 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_PHACollected,User.DHCPHACollected,住院发药主表,
+2,4,DHC_PHACollectItm,User.DHCPHACollectItm,住院发药从表,
+3,5,DHC_STDRUGREFUSE,User.DHCSTDRUGREFUSE,住院拒绝发药表,
+4,6,IN_AdjSalePrice,User.INAdjSalePrice,调价表,

@@ -1,0 +1,4 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,RBC_Equipment,User.RBCEquipment,检查设备,
+2,4,DHCRBC_ReportStatus,User.DHCRBCReportStatus,"检查状态(未写报告 I  图象采集 R 已录入
+O  正在打开  V  已审核  S 已发布)",

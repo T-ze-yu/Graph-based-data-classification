@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TIA_TARI_DR,收费项目,RowId,
+2,-2,TIA_Desc,收费项目名称,Text,
+3,-3,TIA_Alias,收费项目别名,Text,

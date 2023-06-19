@@ -1,0 +1,89 @@
+,序号,字段名称,说明,类型,备注
+1,1,WLAN_PAADM_DR,病人 ADM,"Designative
+Reference",关联 PAADM
+2,2,WLAN_PAPMI_DR,病人 PAPMI,"Designative
+Reference",关联 PaPatmas
+3,3,WLAN_ADMReason_DR,病人身份类型,"Designative
+Reference",关联 Pac_AdmReason
+4,4,WLAN_Type,病人类型(门诊，住院等),"Multiple
+Choice",
+5,5,WLAN_PatLoc_DR,病人所在科室,"Designative
+Reference",关联 CTLOC
+6,6,WLAN_ PatWard _DR,病人所在病区,"Designative
+Reference",
+7,7,WLAN_PatDoc_dr,病人医生,"Designative
+Reference",
+8,8,WLAN_Method,麻醉方式,"Designative
+Reference",OR_Anaesthesia. ANA_Method
+9,9,"WLAN_
+AnaesthesiaDoc_DR",麻醉医生,"Designative
+Reference",OR_Anaesthesia. ANA_Anaesthetist_DR
+10,10,WLAN_SDate,麻醉开始日期,Date,
+11,11,WLAN_STime,麻醉开始时间,Time,
+12,12,WLAN_EDate,麻醉结束日期,Date,
+13,13,WLAN_ETime,麻醉结束时间,Time,
+14,14,WLAN_Continuance,手术持续时间(分钟),Number,
+15,15,WLAN_WrDoc_Dr,添记录(申请)医生,"Designative
+Reference",
+16,16,WLAN_WrDocDep_Dr,填记录医生所在科室,"Designative
+Reference",
+17,17,WLAN_Cut_DR,切口,Designative Reference,MR_Adm（MRADM_DischClassif_Dr-） PAC_DischClassification）
+18,18,WLAN_OperRoom_DR,手术间,"Designative
+Reference",关联 DHC_ANOperRoom
+19,19,WLAN_RecLoc_DR,病人接收科室,"Designative
+Reference",关联 CTLOC
+20,20,WLAN_Complication1,术后并发症 1,"Designative
+Reference",关联 OR_AnaestComplications
+21,21,WLAN_Complication2,术后并发症 2,"Designative
+Reference",关联 OR_AnaestComplications
+22,22,WLAN_ MonitorDevice1,监护设备 1,"Designative
+Reference",关联 ORC_Equipment
+23,23,WLAN_ MonitorDevice2,监护设备 2,,关联 ORC_Equipment
+24,24,WLAN_ MonitorDevice3,监护设备 3,,关联 ORC_Equipment
+25,25,WLAN_ MonitorDevice4,监护设备 4,,关联 ORC_Equipment
+26,26,WLAN_ MonitorDevice5,监护设备 5,,关联 ORC_Equipment
+27,27,WLAN_RHBolldType,RH 血型,,指向血型表 ORC_BloodType
+28,28,WLAN_PatHeight,病人身高（单位厘米）,,numeric
+29,29,WLAN_PatWeight,病人体重（单位公斤）,,numeric
+30,30,WLAN_DeadDate,病人死亡日期,,
+31,31,WLAN_ToLoc_DR,"出室去向科室
+（ICU/SICU）指向表
+CT_Loc",,关联 CTLOC
+32,32,WLAN_ Evaluate_DR,DHC_ANPreOperEval 术前评估,,关联 ORC_ASA_ClassPhActiv
+33,33,WLAN_ Units,手术例数,,1
+34,34,WLAN_ Price,手术金额,,
+35,35,WLAN_Counts,手术总数,,
+36,36,WLAN_BloodAnount,备血量,,numeric
+37,37,WLAN_Memo,备注,,Text(100)
+38,38,WLAN_ Anaest _Type,麻醉类型,,关联 ORC_AnaestType
+39,39,"WLAN_
+Anaest_Complications",麻醉并发症,,关联 ORC_Anaest_Complications
+40,40,WLAN_ASA,ASA 分级,,关联 ORC_ASA_ClassPhActiv
+41,41,WLAN_Date,插入数据日期,,
+42,42,WLAN_Time,插入数据时间,,
+43,43,WLAN _OPER_DR,手术名称,,OR_Anaest_Operation（ANAOP_Type_DR-） ORC_Operation）
+44,44,WLAN _ICD_DR,手术 icd,,关联 MRC_ICDDx
+45,45,WLAN _PreopDiag_DR,术前诊断,,OR_Anaest_Operation .ANAOP_PreopDiag_DR
+46,46,WLAN _PostDiag_DR,术后诊断,,
+47,47,WLAN _DiagFlag,术前术后诊断是否一致,,Y/N
+48,48,WLAN _BodySite_DR,身体部位,,ORC_OperPosition
+49,49,WLAN _OPDate,手术日期,,OR_Anaest_Operation .ANAOP_OpStartDate
+50,50,WLAN _OPTime,手术时间,,OR_Anaest_Operation .ANAOP_OpStartTime
+51,51,WLAN _OpDoc_DR,手术医生,,
+52,52,WLAN _DocDep_DR,手术医生所在科室,,
+53,53,WLAN _  AssistDoc1_DR,手术助理医生 1,,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+54,54,WLAN _  AssistDoc2_DR,手术助理医生 2,,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+55,55,WLAN _  AssistDoc3_DR,手术助理医生 3,,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+56,56,WLAN _AnFADoc1_DR,助理麻醉医生 1,,"OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+57,57,WLAN _AnFADoc2_DR,助理麻醉医生 2,,"OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+58,58,WLAN _AnFADoc3_DR,助理麻醉医生 3,,"OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+59,59,WLAN _CirNurse1_DR,巡回护士,,
+60,60,WLAN _CirNurse2_DR,巡回护士,,
+61,61,WLAN _ScrNurse1_DR,器械护士,,
+62,62,WLAN _ScrNurse2_DR,器械护士,,

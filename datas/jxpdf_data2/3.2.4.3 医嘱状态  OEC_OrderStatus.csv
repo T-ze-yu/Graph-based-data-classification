@@ -1,0 +1,5 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,OSTAT_RowID,RowID,PK,
+2,-2,OSTAT_Activate,,String,"Y,N，值为 Y 表示该记录
+目前在使用"
+3,-3,OSTAT_Code,代码,String,

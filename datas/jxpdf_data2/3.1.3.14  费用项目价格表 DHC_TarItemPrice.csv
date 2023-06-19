@@ -1,0 +1,14 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TP_RowId,价格表 RowId,RowId,
+2,-2,TP_TARI_ParRef,"收费项目指针
+DHC_TarItem",Text,
+3,-3,TP_ChildSub,"收费项目价格
+指针",Text,
+4,,TP_PatInsType,病人保险类型,,
+5,-4,,PAC_AdmReason,String,
+6,,TP_StartDate,价格有效日期,,
+7,,TP_EndDate,价格有效日期,,
+8,,TP_Price,标准价格,,
+9,,TP_AlterPrice1,辅助价格,,
+10,,TP_AlterPrice2,辅助价格,,
+11,,TP_LimitedPrice,病人最高记账,,

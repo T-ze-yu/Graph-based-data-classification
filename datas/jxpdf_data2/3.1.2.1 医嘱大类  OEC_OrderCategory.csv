@@ -1,0 +1,29 @@
+,"序
+号",数据项,业务含义,类型,备注
+1,-1,ORCAT_RowId,,RowID,
+2,-2,ORCAT_Code,代码,Text,
+3,-3,ORCAT_Desc,描述,Text,
+4,4,ORCAT_RepeatInOrder,重复医嘱,Y/N,
+5,5,ORCAT_OrderSeqNo,"医嘱顺序
+号",Number,
+6,6,ORCAT_IconName,Icon Name,Text,
+7,7,ORCAT_IconPriority,"Icon
+Priority",Text,
+8,8,ORCAT_Questionnaire_DR,,DR,"指向表
+SS_UserDefWindow"
+9,9,ORCAT_HrsResultOverdue,,Number,
+10,10,ORCAT_IconApptsMade,,Text,
+11,11,ORCAT_IconResultOverdue,,Text,
+12,12,ORCAT_CounterTypeDR,,DR,指向表 PAC_CounterType
+13,13,ORCAT_ShowIconBeforeEndDate,,Y/N,
+14,14,ORCAT_NoShowIconAfterExcecut,,Y/N,
+15,15,ORCAT_IconDisplayAfterExec,,Text,
+16,16,ORCAT_OCGroup_DR,,DR,"目前用于标记“检查”，指向表
+OEC_OrderCategoryGroup"
+17,17,ORCAT_PrescrExpDays,,Number,
+18,18,ORCAT_PrescrRepeatDays,,Number,
+19,19,ORCAT_IVExpiry,,Number,
+20,20,ORCAT_DoNotDCOnAdmDisch,,Y/N,
+21,21,ORCAT_DoNotDCOnAdmCancel,,Y/N,
+22,22,ORCAT_PhoneOrderReviewTime,,Number,
+23,23,ORCAT_ApplyBatchPricing,,Y/N,

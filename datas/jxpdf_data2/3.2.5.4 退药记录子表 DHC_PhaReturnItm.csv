@@ -1,0 +1,6 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHARI_PHAR_Parref,申请单号,RowID,
+2,-2,PHARI_ChildSub,执行科室,,
+3,-3,PHARI_OEDIS_DR,药房科室,Dr,OE_OrdItem
+4,,PHARI_Price,单价,,
+5,,PHARI_Qty,退药数量,,

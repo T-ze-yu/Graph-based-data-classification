@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,,类型,备注
+1,,CTOCC_RowId,,标识号,,Row ID
+2,,CTOCC_Code,,职业代码,,Text
+3,,CTOCC_Desc,,职业描述,,Text

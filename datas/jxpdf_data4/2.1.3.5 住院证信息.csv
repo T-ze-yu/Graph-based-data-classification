@@ -1,0 +1,5 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHCDocIPBooking,User.DHCDocIPBooking,住院证表,
+2,4,DHCDocIPBKTemplate,User.DHCDocIPBKTemplate,住院证模板表,
+3,5,DHCDocIPBKTempDtl,User.DHCDocIPBKTempDtl,住院证模板明细表,
+4,6,DHCDocIPBKTempItem,User.DHCDocIPBKTempItem,住院证模板项目字典表,

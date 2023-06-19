@@ -1,0 +1,8 @@
+,序号,数据项,业务含义,,,类型,备注
+1,-1,TF_REA_DR,"病  人  保  险
+PAC_AdmReason",分,类,RowId,
+2,-2,TF_TARSC_DR,收费类别,,,Text,
+3,-3,TF_StartDate,系数有效日期,,,Text,
+4,,TF_EndDate,系数有效日期,,,,
+5,,TF_DiscRate,折扣系数,,,,
+6,,TF_PayorRate,记账系数,,,,

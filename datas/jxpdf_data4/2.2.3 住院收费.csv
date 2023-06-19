@@ -1,0 +1,9 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_PatientBill,,账单表,
+2,4,DHC_PatBillOrder,,医护人员类别,
+3,5,DHC_PatBillDetails,,,
+4,6,DHC_INVPRTZY,,住院发票表,
+5,7,dhc_sfprintdetail,,押金表,
+6,8,"AR_Receipts，
+AR_RcptAlloc， AR_RcptPayMode",,住院押金管理,
+7,,DHC_BillCondition,,计费点,

@@ -1,0 +1,149 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,SSUSR_RowId,,RowId,
+2,-2,SSUSR_Initials,ID,Text,
+3,-3,SSUSR_Name,Name,Text,
+4,4,SSUSR_Password,登陆密码,Text,
+5,5,SSUSR_DefaultDept_DR,登陆科室,DR,
+6,6,SSUSR_IsThisDoctor,是否为医生,Y/N,B/S 不用
+7,7,SSUSR_UseDeptAsDefault,登陆科室是否默认,Y/N,"指向医护人员表 CTCareProv，
+B/S 为空"
+8,8,SSUSR_CTPCP_DR,关联医护人员,DR,
+9,9,SSUSR_Group,安全组,DR,
+10,10,SSUSR_ChangeLocation,是否允许用户更改登陆科室,Y/N,默认同 SSUSR_Name
+11,11,SSUSR_EMailName,Name on E Mail system,Text,指向科室表 CT_LOC
+12,12,SSUSR_DeptforEMRLists,Location for EMR lists,DR,指向语言表 SS_Language
+13,13,SSUSR_CTLAN_DR,默认语言,DR,指向医护人员表 CTCareProv
+14,14,SSUSR_CareProv_DR,关联医护人员,DR,
+15,15,SSUSR_Pin,签名密码,Text,
+16,16,SSUSR_PrivilegeStock,Privilege for Stock,Y/N,
+17,17,"SSUSR_RetainOrderCategor
+y",Retain Order Category,Y/N,指向表 PA_Adm
+18,18,SSUSR_LastPAADM_DR,Last PAADM,DR,
+19,19,SSUSR_Active,用户激活,Y/N,
+20,20,SSUSR_DRGTariffVisible,DRG Tariff Visible,Y/N,指向表 BLC_BillSequence
+21,21,SSUSR_BillSequence_DR,,DR,
+22,22,SSUSR_SearchAllAdm,,Y/N,
+23,23,SSUSR_Inpatient,,Y/N,
+24,24,SSUSR_Outpatient,,Y/N,
+25,25,SSUSR_Emergency,,Y/N,
+26,26,SSUSR_OwnPatientsOnly,,Y/N,指向表 CT_LocationList
+27,27,SSUSR_LocList_DR,,DR,
+28,28,SSUSR_AutoAuthorise,,Y/N,指向表 ARC_ItmMast
+29,29,SSUSR_DefaultARCIM_DR,,DR,指向表 CT_Loc
+30,30,"SSUSR_DefRBDepartment_
+DR",,DR,指向表 RB_Resource
+31,31,"SSUSR_DefRBResource_D
+R",,DR,指向表 RBC_Services
+32,32,SSUSR_DefRBService_DR,,DR,
+33,33,SSUSR_DefEpisode,,,
+34,34,"SSUSR_LinkToBedManage
+ment",,,
+35,35,SSUSR_UseDefaultEpisDep,,,
+36,36,"SSUSR_WarnORBookingMo
+veRes",,,
+37,37,SSUSR_NAllORBookPast,,,
+38,38,"SSUSR_NAllORBookNoSes
+s",,,
+39,39,SSUSR_NAllORBookNA,,,
+40,40,SSUSR_AlwaysUseSoundex,,,
+41,41,SSUSR_RBNumberOfRows,,,
+42,42,SSUSR_MultiSelectRows,,,
+43,43,SSUSR_PasswordDate,,,
+44,44,SSUSR_DateLastLogin,,,
+45,45,SSUSR_TimeLastLogin,,,
+46,46,SSUSR_DateFromToday,,,
+47,47,SSUSR_DateToToday,,,
+48,48,SSUSR_DefRefHosp_DR,,,
+49,49,SSUSR_ResEntryButtons,,,
+50,50,"SSUSR_DefaultResEntryButt
+ons",,,
+51,51,SSUSR_DefDateinOE,,,
+52,52,SSUSR_DefDateInDisch,,,
+53,53,SSUSR_DisableEMRPreadm,,,
+54,54,SSUSR_SearchPrevAdm,,,
+55,55,SSUSR_NoOrders,,,
+56,56,SSUSR_NoEMR,,,
+57,57,SSUSR_NoDiagnosis,,,
+58,58,SSUSR_WebSecurityAccess,,,
+59,59,SSUSR_EpisSubType_DR,,,
+60,60,SSUSR_NotReadResults,,,
+61,61,"SSUSR_RestrictModifDischa
+rge",,,
+62,62,SSUSR_Booked,,,
+63,63,SSUSR_Admitted,,,
+64,64,SSUSR_Discharged,,,
+65,65,SSUSR_DefaultCareProv,,,
+66,66,SSUSR_DefaultLocation,,,
+67,67,SSUSR_PasswordChanged,,,
+68,68,SSUSR_Title,,,
+69,69,SSUSR_Surname,,,
+70,70,SSUSR_GivenName,,,
+71,71,SSUSR_OtherName,,,
+72,72,SSUSR_DepartmentHead,,,
+73,73,SSUSR_PayrollNumber,,,
+74,74,SSUSR_StaffType_DR,,,
+75,75,SSUSR_Comments,,,指向 SS_User
+76,76,"SSUSR_LastUpdateUser_D
+R",最后更新人,DR,
+77,77,SSUSR_LastUpdateDate,最后更新日期,Date,
+78,78,SSUSR_LastUpdateTime,最后更新时间,Time,
+79,79,SSUSR_DoctorFlag,DoctorFlag,Y/N,
+80,80,SSUSR_NurseFlag,NurseFlag,Y/N,
+81,81,SSUSR_SecurityMsgRead,,,
+82,82,SSUSR_SecurityMessage,,,
+83,83,SSUSR_LoginID,,,
+84,84,SSUSR_LoginRound,LoginRound,Y/N,
+85,85,SSUSR_DefAllResources,,,
+86,86,SSUSR_DefApptSlots,,,
+87,87,"SSUSR_DefUseStartTimeEa
+chday",,,
+88,88,"SSUSR_DefAppointMeth_D
+R",,,
+89,89,SSUSR_Title_DR,,,
+90,90,SSUSR_RegistrationNumber,,,
+91,91,SSUSR_PrintSecurityLevel,,,指向医院表 CT_Hospital
+92,92,"SSUSR_LastUpdateUserHos
+p_DR",,DR,
+93,93,"SSUSR_ChangeLocWithinLo
+gHosp",,Y/N,
+94,94,"SSUSR_NotAllowToOverboo
+k",,Y/N,
+95,95,SSUSR_MarkInactiveDate,,,
+96,96,SSUSR_MarkInactiveTime,,,
+97,97,"SSUSR_MarkInactiveUser_D
+R",,,
+98,98,SSUSR_DateFrom,生效日期,Date,
+99,99,SSUSR_DateTo,截止日期,Date,指向医院表 CT_Hospital
+100,100,SSUSR_Hospital_DR,医院,DR,
+101,101,SSUSR_Mobile,,,
+102,102,SSUSR_Pager,,,
+103,103,SSUSR_Email,,,
+104,104,"SSUSR_LocationNotMandat
+oryOnResEntry",,,
+105,105,SSUSR_TimeSinceLastAppt,,,
+106,106,SSUSR_TimeSincePeriod,,,
+107,107,SSUSR_Name1,,,
+108,108,SSUSR_Name2,,,
+109,109,SSUSR_Name3,,,
+110,110,SSUSR_IEPath,,,
+111,111,"SSUSR_ExternalUserIdentifi
+er",,,
+112,112,SSUSR_CashierShift,,,
+113,113,SSUSR_BioKey,,,
+114,114,SSUSR_BioMode,,,
+115,115,SSUSR_DisclaimerSigned,,,
+116,116,SSUSR_CreatedBy_DR,,,
+117,117,SSUSR_CreatedDate,,,
+118,118,SSUSR_CreatedTime,,,
+119,119,SSUSR_YesNo1,,,
+120,120,SSUSR_YesNo2,,,
+121,121,SSUSR_YesNo3,,,
+122,122,SSUSR_YesNo4,,,
+123,123,SSUSR_YesNo5,,,
+124,124,SSUSR_FreeText1,,,
+125,125,SSUSR_FreeText2,,,
+126,126,SSUSR_FreeText3,,,
+127,127,"SSUSR_AllowWebLayoutMa
+nager",,,
+128,128,"SSUSR_AllowWebColumnM
+anager",,,

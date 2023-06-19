@@ -1,0 +1,7 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHCSC_RowID,,Row ID,
+2,-2,PHCSC_Code,代码,Text,
+3,-3,PHCSC_Desc,描述,Text,
+4,4,PHCSC_LookupDisplay,,Text,
+5,-5,PHCSC_PHCC_ParRef,药学分类 RowID,DR,指向表 PHC_Cat
+6,6,PHCSC_ChildSub,ChildSub,ChildSub,

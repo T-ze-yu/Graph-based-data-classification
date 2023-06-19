@@ -1,0 +1,13 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_PatientBill,,账单表,
+2,4,DHC_PatBillOrder,,,
+3,5,DHC_PatBillDetails,,,
+4,6,DHC_INVPRT,,门诊发票表,
+5,7,DHC_INVPayMode,,发票支付方式表,
+6,8,DHC_BillConINV,,账单发票连接表,
+7,,DHC_INVPRTReports,,门诊报表结算表,
+8,,DHC_AccPayINV,,集中打印发票表,
+9,,DHC_AccPINVConPRT,,集中打印发票表关联门诊发票表,
+10,,DHC_AccManager,,门诊账户表,
+11,,DHC_AccPreDeposit,,门诊预交金表,
+12,,DHC_AccPayList,,门诊消费表,

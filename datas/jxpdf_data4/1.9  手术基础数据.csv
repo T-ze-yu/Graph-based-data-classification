@@ -1,0 +1,9 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,ORC_AnaestMethod,User. CTCareProv,病麻醉方式,
+2,,ORC_Operation,User.ORCOperation,手术数据表,
+3,,ORC_OperationAlias,User.ORCOperationAlias,手术别名表(ORC_Operation 的子表),
+4,,ORC_OperPosition,User.ORCOperPosition,"体位(平卧位, 侧位)",
+5,,ORC_OperationCategory,User.ORCOperationCategory,"手术分类(一类,二类,三类)",
+6,,ORC_AnaestMethod,User.ORCAnaestMethod,麻醉方式数据表(安定麻醉),
+7,,ORC_BladeType,User.ORCBladeType,手术切口等级,
+8,4,OEC_BodySite,User.OECBodySite,身体部位,

@@ -1,0 +1,8 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_AN_Arrange,User.DHCANArrange,手术排班表,^DHCANOPArrange
+2,4,DHC_ANC_OperRoom,,手术间,"^DHCANC(""OPRoom”)"
+3,5,DHC_ANPreOperDrug,User.CTCareProv,术前用药记录,^DHCANOPPreDrug
+4,6,DHC_ANPreOperEval,User.PACWardRoom,术前评估,^DHCANOPPreEval
+5,7,DHC_AN_Order,User.DHCANOrder,"术中医嘱记录表（用
+药、处置治疗、材料）",
+6,8,DHC_AN_VitalSign,User. DHCANVitalSign,病人生命体征记录表,

@@ -1,0 +1,21 @@
+,序号,数据项,业务含义,类型,备注
+1,,CTZIP_Active,是否为默认值,Yes/No,4
+2,,CTZIP_CityAreaDesc,城市所在地区描述,Text,30
+3,,CTZIP_CITYAREA_DR,"指 向 城 市 区 域 表
+CT_CityArea 的 Row ID",DR,19
+4,,CTZIP_CityDesc,城市描述,Text,30
+5,,CTZIP_CITY_DR,"指向城市表 CT_City 的
+Row ID",DR,16
+6,,CTZIP_Code,邮编代码,Text,8
+7,,CTZIP_Complement,补充说明,Text,30
+8,,CTZIP_Desc,邮编描述,Text,40
+9,,CTZIP_HCA_DR,"指 向 健 康 监 护 区 域
+CT_HealthCareArea     表的 Row ID",DR,16
+10,,CTZIP_Province_DR,"指 向 所 在 省 市 表
+CT_Province 的 Row ID",DR,16
+11,,CTZIP_Region_DR,"指向区域表 CT_Regiona
+的 Row ID",DR,16
+12,,CTZIP_Remark,备注,Text,25
+13,,CTZIP_RowId,标识号,Row ID,16
+14,,CTZIP_Type,邮编类别,"Multiple
+Choice",8

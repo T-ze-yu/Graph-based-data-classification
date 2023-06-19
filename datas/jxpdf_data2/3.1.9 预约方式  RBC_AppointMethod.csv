@@ -1,0 +1,7 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,APTM_RowId,,RowID,
+2,-2,APTM_Code,代码,Text,
+3,-3,APTM_Desc,描述,Text,
+4,4,APTM_CollectMoney,Collect Money,Y/N,
+5,5,APTM_DateFrom,生效日期,Date,
+6,6,APTM_DateTo,截止日期,Date,

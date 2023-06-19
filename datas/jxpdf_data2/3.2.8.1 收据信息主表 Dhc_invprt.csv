@@ -1,0 +1,29 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PRT_Acount,收据金额数( 票据费用总额)(不打折),RowId,
+2,-2,PRT_ARRCP_DR,指向表外键 AR_Receipts,Text,TrakCare 中的票据表
+3,-3,PRT_Date,收费日期,Text,
+4,,PRT_DHCINVPRTR_DR,关联结帐历史记录表,,"指向
+DHC_INVPRTReports，收费员日结帐后建立的关联
+Normal||N 正常
+Abort||A  作废
+Strike||S 冲红
+指向 DHC_INVPRT
+指向 PA_PatMas 门诊 Out Patient住院 In Patient
+NoPrint||N   没有打印
+Printed||P   已经打印
+正常的现金收费 标记 P
+(原则:患者可以在没有结算帐户时随意打印发票,结算帐户时,一定打印发票;否则有些情况没法处理)
+帐户支付的集中打印"
+5,-4,,,String,
+6,,PRT_Flag,状态,,
+7,,PRT_Handin,结帐标志,,
+8,,PRT_HandinDate,结帐日期,,
+9,,PRT_HandinTime,结帐时间,,
+10,,PRT_initInv_DR,冲红的原记录的 ROWID,,
+11,,PRT_initInv,冲红的原发票号,,
+12,,PRT_inv,发票号,,
+13,,PRT_PAPMI_DR,关联病人信息表,,
+14,,PRT_PatType,病人类型,,
+15,,PRT_Time,收费时间,,
+16,,PRT_Usr,收费员/或作废员,,
+17,,PRT_SocialStatus,指向 CT_SocialStatus，作,,

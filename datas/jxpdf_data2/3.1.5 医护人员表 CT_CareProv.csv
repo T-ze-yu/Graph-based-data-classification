@@ -1,0 +1,81 @@
+,序号,数据项,业务含义,类型,备
+1,-1,CTPCP_RowId1,,RowID,
+2,-2,CTPCP_Code,代码,Text,
+3,-3,CTPCP_Desc,描述,Text,
+4,4,CTPCP_Id,,Text,
+5,5,CTPCP_Category,,Text,
+6,6,CTPCP_SMCNo,SMC 号码,Text,
+7,-7,CTPCP_CarPrvTp_DR,类型,DR,指向医护人员类型表 CT_CarPrvTp
+8,8,CTPCP_AddrType_DR,,DR,指向 CT_AddrType
+9,9,CTPCP_Blk,街区号,Text,
+10,10,CTPCP_StName,街道名字,Text,
+11,11,CTPCP_Level,楼层数,Text,
+12,12,CTPCP_Unit,单元号,Text,
+13,13,CTPCP_City_DR,城市,DR,指向表 CT_City
+14,14,CTPCP_State_DR,国家,DR,指向表 CT_State
+15,15,CTPCP_Zip_DR,邮编,DR,指向表 CT_Zip
+16,16,CTPCP_Spec_DR,专长,DR,指向表 CT_Spec
+17,17,CTPCP_SubSpec_DR,其它专长,DR,指向表 CT_Spec
+18,18,CTPCP_TelO,"电话号码(办
+公室)",Text,
+19,19,CTPCP_TelOExt,"电话号码(分
+机)",Text,
+20,20,CTPCP_TelH,电话号码(家),Text,
+21,21,CTPCP_PagerNo,"Pager
+Number",Text,
+22,22,CTPCP_Hosp_DR,咨询医院,DR,指向表 CT_RefClin
+23,23,CTPCP_Con1Code_DR,,DR,指向表 ARC_ItmMast
+24,24,CTPCP_Con2Code_DR,,DR,指向表 ARC_ItmMast
+25,-25,CTPCP_ActiveFlag,激活,Y/N,
+26,26,CTPCP_VersionOrigin_DR,,DR,指向表 CT_CareProv
+27,27,CTPCP_VersionNumber,,Text,
+28,28,CTPCP_VersionDate,,Date,
+29,29,CTPCP_VersionTime,,Time,
+30,30,CTPCP_VersionDateTime,,Compute,"s
+{CTPCP_VersionDateTime}=$p({CTPCP_Version"
+31,31,CTPCP_AuthorID,,Text,
+32,32,CTPCP_SpecialistYN,,Y/N,
+33,33,CTPCP_FirstDigitInQueue,"队列码的首
+位数字",Text,
+34,34,CTPCP_DateActiveFrom,生效日期,Date,
+35,35,CTPCP_DateActiveTo,截止日期,Date,
+36,36,CTPCP_LinkDoctor_DR,,DR,指向表 CT_CareProv
+37,37,CTPCP_AllocatedDoctor,,Y/N,
+38,38,CTPCP_Surgeon,是外科医生,Y/N,
+39,39,CTPCP_Anaesthetist,是麻醉师,Y/N,
+40,40,CTPCP_PrescriberNumber,,Text,
+41,41,CTPCP_CPGroup_DR,,DR,指向表 CT_CareProvGroup
+42,42,CTPCP_RespUnit_DR,,DR,指向表 CT_ResponsibleUnit
+43,43,CTPCP_CTLOC_DR,,DR,指向表 CT_Loc
+44,44,CTPCP_Title,Title,Text,
+45,45,CTPCP_DOB,Date Of Birth,Text,
+46,46,CTPCP_MobilePhone,MobilePhone,Text,
+47,47,CTPCP_Fax,Fax No.,Text,
+48,48,CTPCP_MailList,Mail List,Text,
+49,49,CTPCP_Email,Email,Text,
+50,50,CTPCP_PrefConMethod,,Text,
+51,51,CTPCP_TextOne,,Text,
+52,52,CTPCP_TextTwo,,Text,
+53,53,CTPCP_ContactFirstOn,,Text,
+54,54,CTPCP_Radiologist,,Y/N,
+55,55,CTPCP_AdmittingRights,,Y/N,
+56,56,CTPCP_Acceptance,,Y/N,
+57,57,CTPCP_Previous,,Y/N,
+58,58,CTPCP_MantouxTest,,Y/N,
+59,59,CTPCP_Continuing,,Y/N,
+60,60,CTPCP_New,,Y/N,
+61,61,CTPCP_PrefMailAddFlad,,Mul C,"H||Home,I||Internal,R||Room"
+62,62,CTPCP_UpdateDate,"最后更新日
+期",Date,
+63,63,CTPCP_UpdateTime,"最后更新时
+间",Time,
+64,64,CTPCP_UpdateUser_DR,最后更新人,DR,指向表 SS_User
+65,65,CTPCP_BestContactTime,,Text,
+66,66,CTPCP_ReferralDoctor_DR,,DR,指向表 PAC_RefDoctor
+67,67,CTPCP_FirstName,First Name,Text,
+68,68,CTPCP_OtherName,Other Name,Text,
+69,69,CTPCP_Title_DR,,DR,指向表 CT_Title
+70,70,CTPCP_Surname,Surname,Text,
+71,71,CTPCP_HICApproved,,Y/N,
+72,72,CTPCP_PractitionerFlag1,,Y/N,
+73,73,CTPCP_RowId,,RowID,

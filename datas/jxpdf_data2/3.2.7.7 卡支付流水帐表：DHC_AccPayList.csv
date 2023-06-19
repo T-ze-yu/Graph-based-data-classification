@@ -1,0 +1,18 @@
+,序号,数据项,"数据项名称（业务含
+义）",类型,长度,"可否为
+空","缺省
+值",备注说明
+1,1,AccPL_ParRef,对应父表,DR,,Not Null,,DHC_AccManage r
+2,2,AccPL_RowID,Row ID,Row ID,,,,RowID
+3,3,AccPL_Sub,,Number,,,,
+4,4,AccPL_PAPMI_DR,指向 PA_PatMas 表,,,,,"指向此支付额为 哪个患者支付的；对于患者没有账
+户仍然可以支付"
+5,5,AccPL_InvPrt_DR,"门诊结算票据管理的
+RowID",DR,,,,"对应表
+DHC_Invprt"
+6,6,AccPL_PAPMINo,患者的登记号,Text,,,,在 PA_PatMas 中
+7,7,AccPL_BillNo,"小票号码(此号码可打可不打，决定权在项
+目)，可以加上审批权来代替这个",Text,,,,与打印出来的票 据号一致，格式：登记号码_
+8,8,AccPL_User_DR,"服务/会计人员
+RowID，操作此支付的人员",DR,,,,指向 SS_User
+9,9,AccPL_PayDate,卡支付日期,Date,,,,对应账单支付的

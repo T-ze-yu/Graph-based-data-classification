@@ -1,0 +1,26 @@
+,序号,数据项,数据项名称（业务含义）,类型,长度,"可否为
+空","缺省
+值",备注说明
+1,1,CF_RowID,,,,,,
+2,2,CF_AccNo_DR,帐户代码外键,DR,,No,,"说明此卡所挂的帐户
+(DHC_AccManager)"
+3,,CF_CardNo,卡号,Text,,,,
+4,3,CF_SecurityNO,卡的安全号码,Text,,,,
+5,4,CF_PAPMI_DR,指向 PA_PatMas 表,DR,,,,
+6,5,CF_IDCardNo,身份证号码,Text,30,,,
+7,6,CF_PAPMINo,登记号,Text,30,,,
+8,7,CF_Date,发卡日期,Date,,,,
+9,8,CF_Time,发卡时间,Time,,,,
+10,9,CF_User_DR,发卡人,DR,,,,
+11,10,CF_ActiveFlag,有效卡标志,Multi,,,,"Normal||N    正常
+Suspend||S    挂失
+Reclaim||R    回收
+Depose||D    作废(此时，不能再次使用)"
+12,11,CF_DateFrom,Date,,,,,
+13,12,CF_DateTo,Date,,,,,
+14,13,CF_CancleDate,,,,,,
+15,14,CF_CancleTime,,,,,,
+16,15,CF_CancleUser_DR,SS_User,DR,,,,
+17,16,CF_Note1,,,,,,
+18,17,CF_Note2,,,,,,
+19,18,CF_Note3,,,,,,

@@ -1,0 +1,11 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,OEORD_RowId,Row ID,Rowid,
+2,-2,OEORD_Adm_DR,"就诊号（住院流水
+号）",DR,PA_Adm
+3,-3,OEORD_Date,医嘱录入日期,Date,
+4,-4,OEORD_Time,医嘱录入时间,Time,
+5,-5,OEORD_Doctor_DR,"开单医生（诊断医
+生）",DR,CT_CareProv
+6,-6,OEORD_ARCOP_DR,,,
+7,-7,OEORD_OEOTC_DR,,,
+8,-8,OEORD_SundryDebtor_DR,,DR,ARC_SundryDebtor

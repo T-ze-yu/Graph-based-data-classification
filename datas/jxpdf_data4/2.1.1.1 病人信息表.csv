@@ -1,0 +1,14 @@
+,序号,表名称,类,业务名称,存储
+0,1.0,PA_PatMas,jj,医护人员,
+1,,PA_Person,,,"^CT(""SEX"")"
+2,,CT_Sex,,性别表,
+3,,CT_Marital,,婚姻状况,
+4,,CT_Relation,,家庭关系,"^CT(""RLT"""
+5,,CT_Education,,教育,"^CT(""EDU"")"
+6,,CT_Nation,,民族,"^CT(""NAT"")"
+7,,CT_Occupation,,职业,"^CT(""OCC"""
+8,,CT_SocialStatus,,患者身份,
+9,,CT_City,,,"^CT(""CIT"")"
+10,,CT_Country,,国家,
+11,,CT_Region,,区域,"^CT(""RG"")"
+12,4.0,CT_Province,,,"^CT(""PROV"

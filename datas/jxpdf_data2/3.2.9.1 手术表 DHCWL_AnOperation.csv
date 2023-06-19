@@ -1,0 +1,47 @@
+,序号,字段名称,说明,类型,备注
+1,1,WLOP_OPER_DR,手术名称,Designative Reference,OR_Anaest_Operation（ANAOP_Type_DR-） ORC_Operation）
+2,2,WLOP_OPER_Type,"主次手术
+标志",Multiple Choice,M\S
+3,3,WLOP_ICD_DR,手术 icd,"Designative
+Reference",关联 MRC_ICDDx
+4,4,WLOP_ UnitPrice,单价,Number,
+5,5,WLOP_Units,次数,Number,
+6,6,WLOP_Price,总价,Number,
+7,7,WLOP_PreopDiag_DR,术前诊断,"Designative
+Reference","OR_Anaest_Operation .ANAOP_PreopDia
+g_DR"
+8,8,WLOP_PostDiag_DR,术后诊断,"Designative
+Reference",
+9,9,WLOP_DiagFlag,"术前术后
+诊断是否一致",Multiple Choice,Y/N
+10,10,WLOP_BodySite_DR,身体部位,"Designative
+Reference",ORC_OperPosition
+11,11,WLOP_Date,手术日期,Date,"OR_Anaest_Operation .ANAOP_OpStartD
+ate"
+12,12,WLOP_Time,手术时间,Time,"OR_Anaest_Operation .ANAOP_OpStartTi
+me"
+13,13,WLOP_OpDoc_DR,手术医生,"Designative
+Reference",
+14,14,WLOP_DocDep_DR,"手术医生
+所在科室","Designative
+Reference",
+15,15,WLOP_  AssistDoc1_DR,手术助理医生 1,Designative Reference,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+16,16,WLOP_  AssistDoc2_DR,手术助理医生 2,Designative Reference,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+17,17,WLOP_  AssistDoc3_DR,手术助理医生 3,Designative Reference,"OR_An_Oper_Assistant
+（OPAS_Assist_DR->CT_CareProv）"
+18,18,WLOP_AnFADoc1_DR,助理麻醉医生 1,Designative Reference,"OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+19,19,WLOP_AnFADoc2_DR,助理麻醉医生 2,Designative Reference,"OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+20,20,WLOP_AnFADoc3_DR,"助理麻醉
+医生 3","Designative
+Reference","OR_An_Oper_Anaest_Assistant
+（ANASS_CTCP_DR-> CT_CareProv）"
+21,21,WLOP_CirNurse1_DR,巡回护士,"Designative
+Reference",
+22,22,WLOP_CirNurse2_DR,巡回护士,"Designative
+Reference",
+23,23,WLOP_ScrNurse1_DR,器械护士,,
+24,24,WLOP_ScrNurse2_DR,器械护士,,

@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,,类型,备注
+1,,BLDT_RowId,,标识号,,Row ID
+2,,BLDT_Code,,病人血型代码,,Text
+3,,BLDT_Desc,,病人血型描述,,Text

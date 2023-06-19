@@ -1,0 +1,13 @@
+,序号,字段名称,说明,类型,备注
+1,1,AddReport_Date,,Date,
+2,2,AddReport_ECCat_Dr,核算分类,"Designative
+Reference",
+3,3,AddReport_FlagPrice,结算费用,Number,
+4,4,AddReport_ItemDr,医嘱项,Text,
+5,5,AddReport_ItemLocFlag,,"Designative
+Reference",
+6,6,AddReport_LastAddPrice,上期余额,Number,
+7,7,AddReport_MonFlag,月标志,Text,
+8,8,AddReport_NowAddPrice,本期余额,Number,
+9,9,AddReport_OrdPrice,实际发生费用,Number,
+10,10,AddReport_PatLocDr,病人科室,Designative,

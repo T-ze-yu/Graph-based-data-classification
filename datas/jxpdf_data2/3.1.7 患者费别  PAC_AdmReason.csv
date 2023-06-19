@@ -1,0 +1,18 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,REA_RowId,,RowId,
+2,-2,REA_Code,代码,Text,
+3,-3,REA_Desc,描述,Text,
+4,4,REA_DateFrom,生效日期,Date,
+5,5,REA_DateTo,截止日期,Date,
+6,6,REA_NationalCode,,Text,
+7,7,REA_AgeFrom,,Number,
+8,8,REA_AgeTo,,Number,
+9,9,REA_InPatAdm_DR,,Text,
+10,10,REA_AdmSource,,Text,
+11,11,REA_QualifStatus,,Text,
+12,12,REA_CareType,,Text,
+13,13,REA_EpisSubType,,Text,
+14,14,REA_AgeType,,Mul C,"M||Month,D||Days,Y||Year"
+15,15,REA_Age1From,,Number,
+16,16,REA_Age1To,,Number,
+17,17,REA_Age1Type,,Mul C,"M||Month,D||Days,Y||Year"

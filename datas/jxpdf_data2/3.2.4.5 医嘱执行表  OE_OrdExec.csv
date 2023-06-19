@@ -1,0 +1,16 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,OEORE_RowID,,,
+2,-2,OEORE_OEORI_ParRef,医嘱明细,DR,OE_OrdItem
+3,3,OEORE_Childsub,New Key,PK,
+4,-4,OEORE_PhQtyOrd,数量,Float,
+5,-5,OEORE_XDate,注销日期,Date,
+6,-6,OEORE_ExStDate,执行开始日期,,
+7,-7,OEORE_ExStTime,执行开始时间,,
+8,-8,OEORE_StDateTime,执行开始日期+时间,,
+9,9,OEORE_XTime,注销时间,,
+10,-10,OEORE_Order_Status_DR,医嘱执行状态,DR,"OEC_Order_AdminStatus，
+E 完成，PRE 欲执行"
+11,11,OEORE_CTPCP_DR,,,
+12,12,OEORE_PhQtyIss,,,
+13,13,OEORE_Billed,账单状态,,
+14,14,OEORE_CTUOM_DR,单位,DR,CT_Uom

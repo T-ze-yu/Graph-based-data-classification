@@ -1,0 +1,14 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,WARD_RowID,,RowId,
+2,-2,WARD_Code,代码,Text,
+3,-3,WARD_Desc,描述,Text,
+4,-4,WARD_RoomDR,房间,DR,指向 PAC_Room
+5,-5,WARD_SingleRoom,单一房间,Y/N,
+6,-6,WARD_LocationDR,在科室表 RowID,DR,指向科室表 CT_Loc
+7,-7,WARD_Active,激活,Y/N,
+8,8,WARD_InactiveDateFrom,,Date,
+9,9,WARD_InactiveTimeFrom,,Time,
+10,10,WARD_InactiveDateTo,,Date,
+11,11,WARD_InactiveTimeTo,,Time,
+12,12,WARD_ViewLinkedRooms,,Y/N,
+13,13,WARD_ViewNextMostUrgent,,Y/N,

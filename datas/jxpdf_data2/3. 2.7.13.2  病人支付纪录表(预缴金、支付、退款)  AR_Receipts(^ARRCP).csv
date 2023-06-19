@@ -1,0 +1,8 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,ARRAL_ARRCP_ParRef,,RowId,
+2,-2,ARRAL_RowId,,,
+3,-3,ARRAL_ChildSub,,,
+4,-4,ARRAL_PayAmt,,,
+5,-5,ARRAL_PrevBal,,,
+6,-6,ARRAL_Admission_DR,,,
+7,-7,ARRAL_RcFlag,,,

@@ -1,0 +1,16 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHACI_PHAC_ParRef,发药主表,DR,DHC_PHACollected
+2,-2,PHACI_RowID,,Rowid,
+3,-3,PHACI_Adm_DR,就诊 ID,DR,PA_Adm
+4,-4,PHACI_PrescNo,处方号,Text,
+5,-5,PHACI_INCI_DR,药品科室批次,DR,INC_ItmLcBt
+6,-6,PHACI_Qty,发药数量,Number,
+7,-7,PHACI_OEDIS_DR,发药 ID,DR,OE_Dispensing
+8,8,PHACI_ChildSub,,Number,
+9,9,PHACI_BED,床位名称,Text,
+10,-10,PHACI_Price,单价,Number,
+11,-11,PHACI_OrdStatus,医嘱状态,,
+12,-12,PHACI_AdmLoc_DR,就诊科室,DR,CT_Loc
+13,13,PHACI_DODIS_DR,,DR,DHC_OEDispensing
+14,14,PHACI_ResQty,欲发退回药品数量,,"有些药品在退药的时
+候不将实物退回，所以在发药的时候先将已经退药但实物尚未退回的部分发掉"

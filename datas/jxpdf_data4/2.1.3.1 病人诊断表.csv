@@ -1,0 +1,4 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,MR_Adm,User. CTCareProv,诊断主表,"^MR,^MRi"
+2,4,MR_Diagnos,User. MRDiagnos,诊断子表,^MR
+3,5,MR_DiagType,User.MRDiagType,诊断类型(MR_Diagnos 的子表),

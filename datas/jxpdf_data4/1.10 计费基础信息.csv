@@ -1,0 +1,28 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,CT_PayMode,User. CTPayMode,支付方式,"^CT(""CTPM"")"
+2,4,PAC_AdmReason,User. PACAdmReason,病人入院类型字典,"^PAC(""ADMREA"""
+3,5,dhc_taritem,User.DHCTarItem,收费项目表,^DHCTARI
+4,6,dhc_orderlinktar,,收费项目与医嘱项对应表,^DHCOLT
+5,7,dhc_taritemprice,,收费项目价格表,^DHCTARI
+6,8,dhc_taritemalias,,收费项目别名,^DHCTARAL
+7,,DHC_TARfactor,,收费项目对不同病人的折扣与记帐比例,
+8,,DHC_TarAC,,收费项目会计分类,"^DHCTarC(""TAC"""
+9,,ARC_DisretOutstType,,欠费类别表,"^ARC(""DOUTS"")"
+10,,DHC_TarIc,,住院费用大类字典,"^DHCTarC(""TIC"")"
+11,,DHC_TarInpatCate,,住院费用子类,"^DHCTarC(""IC"""
+12,,DHC_TarPara,,新计费系统参数表,"^DHCTarC(""CF"")"
+13,,arc_deptype,,预交金类型字典,"^ARC(""ARCDT"")"
+14,,cmc_bankmas,,银行字典,"^CMC(""CMCBM"""
+15,,"DHC_TARCATE,
+DHC_TARSUBCATE",,收费项目类(子类与病人收费有关),
+16,,"DHC_TAROC
+DHC_TAROUTPATCATE",,门诊分类发票,
+17,,"DHC_TARIC
+DHC_TARINPATCATE",,住院分类,
+18,,"DHC_TAREC
+DHC_TAREMCCATE",,核算分类(只有统计组用到),
+19,,"DHC_TarMc
+DHC_TarMrCate",,"病案分类(MEDTRAK 中的电子病历中病案首
+页)",
+20,,"DHC_TARAC
+DHC_TARACCTCATE",,会计分类(只有统计组用到),

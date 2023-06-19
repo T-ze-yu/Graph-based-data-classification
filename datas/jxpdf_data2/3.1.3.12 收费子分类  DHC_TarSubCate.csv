@@ -1,0 +1,6 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TARSC_RowId,,RowId,
+2,-2,TARSC_Code,代码,Text,
+3,-3,TARSC_Desc,描述,Text,
+4,-4,TARSC_TARC_DR,指向大类,DR,"指向
+User.DHCTarCate"

@@ -1,0 +1,44 @@
+,序号,数据项,业务含义,类型,
+1,-1,ARCIM_RowId,,Row ID,
+2,-2,ARCIM_Code,代码,Text,
+3,-3,ARCIM_Desc,描述,Text,
+4,-4,ARCIM_Abbrev,缩写,Compute,
+5,-5,ARCIM_UOM_DR,单位,DR,指向 CT_UOM
+6,6,ARCIM_MinAmt,"Minimum
+Amount",Number,
+7,7,ARCIM_MaxAmt,"Maximum
+Amount",Number,
+8,8,ARCIM_ChgUnitFact,"Charge Unit
+Factor",Number,
+9,-9,ARCIM_ItemCat_DR,医嘱子类,DR,指向 ARC_ItemCat
+10,10,ARCIM_ChgCost,Unit Cost,Number,
+11,11,ARCIM_ChgMinAmt,"Minimum
+Amount",Number,
+12,12,ARCIM_ChgMaxAmt,"Maximum
+Amount",Number,
+13,13,ARCIM_StdAmt,"Standard
+Amount",Number,
+14,14,ARCIM_TypeAAmt,Type A Amount,Number,
+15,15,ARCIM_TypeBAmt,Type B Amount,Number,
+16,16,ARCIM_ChgDispFlg,"Price control
+flag",Mul C,"I||Input,D||Display"
+17,17,ARCIM_ChgPostFlg,"Charge posting
+flag",Mul C,"O||Upon Order Entry,E||Upon executio"
+18,18,ARCIM_TimeDepFlg,"Time
+dependent flag",Y/N,
+19,19,ARCIM_P1ChgFact,"Period 1
+Charge Factor",Number,
+20,20,ARCIM_P1StdAddAmt,"Period 1 Standard Additional
+Amount",Number,
+21,21,ARCIM_P1TypAAddAmt,"Period 1 Type A Additional
+Amount",Number,
+22,22,ARCIM_P1TypBAddAmt,"Period 1 Type B Additional
+Amount",Number,
+23,23,ARCIM_P2ChgFact,"Period 2
+charge factor",Number,
+24,24,ARCIM_P2StdAddAmt,"Period 2 Standard Additional
+Amount",Number,
+25,25,ARCIM_P2TypAAddAmt,"Period 2 Type A Additional
+Amount",Number,
+26,26,ARCIM_P2TypBAddAmt,"Period 2 Type
+B Additional Amount",Number,

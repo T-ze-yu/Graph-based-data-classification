@@ -1,0 +1,16 @@
+,序号           表名称                   类名称                      业务名称                   存储,,,
+1,1,RB_Resource,User.RBResource,资源表
+2,4,RB_ResEffDate,User.RBResEffDate,班次表
+3,5,RB_ResEffDateSession,User.RBResEffDateSession,排班模板表
+4,,DHC_RBResEffDateSessAppQty,User.DHCRBResEffDateSessAppQty,预约分配记录表
+5,6,RB_ApptSchedule,User.RBApptSchedule,排班表
+6,7,DHC_RBApptSchedule,User.DHCRBApptSchedule,排班扩展表
+7,8,RBC_SessionType,User.RBCSessionType,出诊级别
+8,,DHC_RBCASStatus,User.DHCRBCASStatus,"排班状态表(正常,停诊)"
+9,9,"DHC_TimeRange
+DHC_RBApptScheduleAppQty
+RBC_ReasonNotAvail RBC_ClinicGroup","User.DHCTimeRange
+User.DHCRBApptScheduleAppQty
+User.RBCReasonNotAvail User.RBCClinicGroup","出诊时段表(上午,下午)
+预约分配表(DHC_RBApptSchedule 的子表)
+停替诊原因亚专业"

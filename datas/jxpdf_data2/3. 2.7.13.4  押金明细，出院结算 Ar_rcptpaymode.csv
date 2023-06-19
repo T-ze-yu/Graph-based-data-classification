@@ -1,0 +1,9 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PAYM_PayMode_DR,支付方式,RowId,
+2,-2,PAYM_CMBank_DR,银行 id,,
+3,-3,PAYM_Amt,支付金额,,
+4,-4,PAYM_Card_DR,卡类型,,
+5,-5,PAYM_CardChequeNo,卡或支票号,,
+6,-6,PAYM_ChequeDate,支票日期,,
+7,-7,PAYM_AddDate,操作日期,,
+8,,PAYM_AddTime,操作时间,,

@@ -1,0 +1,8 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,IPM_PRT_ParRef,指向父表 DHC_INVPRT,,
+2,-2,IPM_Sub,,,
+3,-3,IPM_PayMode_DR,支付方式,,
+4,,IPM_CMBank_DR,银行卡或支票的银行信息,,
+5,,IPM_Amt,金额,,
+6,,IPM_CardChequeNo,卡支票号码,,
+7,,IPM_Card_DR,银行卡类型，包括自己发的卡,,指向 ARC_BankCardType

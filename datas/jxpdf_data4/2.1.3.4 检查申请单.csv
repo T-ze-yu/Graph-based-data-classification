@@ -1,0 +1,5 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHCRB_ApplicationBill,User. DHCRBApplicationBill,申请单表,
+2,4,DHCRB_ApplicationBill_OrdItem,"User.
+DHCRBApplicationBillOrdItem",申请单表对应医嘱,
+3,5,DHCRBC_Goal,User. DHCRBCGoal,申请检查目的表,

@@ -1,0 +1,9 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,Grant_date,发放日期,RowId,
+2,-2,Grant_time,发放时间,Text,
+3,-3,Grant_startno,开始号码,Text,
+4,-4,Grant_endno,结束号码,String,
+5,,Grant_user,发放人,,
+6,,Grant_loc,部门,,
+7,,Grant_currentno,当前可发放的号码,,
+8,,Grant_useflag,可用标志，1：可用；2：,,

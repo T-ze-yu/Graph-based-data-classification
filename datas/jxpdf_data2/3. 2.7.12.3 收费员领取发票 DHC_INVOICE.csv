@@ -1,0 +1,9 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,Inv_startinv,开始号码,RowId,
+2,-2,Inv_endinv,结束号码,Text,
+3,-3,Inv_user,领取人,Text,
+4,-4,Inv_date,领取日期,String,
+5,,Inv_time,领取时间,,
+6,,Inv_lastnum,当前可用号码,,
+7,,Inv_finalflag,可用标志,,
+8,,Inv_type,部门（门诊/住院）,,

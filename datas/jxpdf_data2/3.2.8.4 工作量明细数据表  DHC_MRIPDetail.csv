@@ -1,0 +1,7 @@
+,序号,字段名称,说明,类型,备注
+1,1,IPDE_MRIPDay_Dr,DHCMRIPDAY 表 ID,"Designative
+Reference",
+2,2,IPDE_PAADM_Dr,病人 ID,"Designative
+Reference",
+3,3,IPDE_Rowid,Row id,Row id,
+4,4,IPDE_Type,类型,Text,

@@ -1,0 +1,270 @@
+{
+    "level": {
+        "level1": {
+            "name": "1级",
+            "数据特点": "业务要求：可公开发布；数据内容：某些统计值；数据使用者：大众",
+            "适用场合": "公告",
+            "特征与案例": "需要公众了解，例如剩余床位信息、剩余可就诊号源信息",
+            "安全措施要点": "是否可公开需要评审"
+        },
+        "level2": {
+            "name": "2级",
+            "数据特点": "业务要求：不需要识别个人；数据内容：一般人口信息、各类医疗、卫生服务信息；数据使用者：科研教育等人员",
+            "适用场合": "管理、研究、教育与统计分析",
+            "特征与案例": "不需要识别个人，例如病例分析、各类病种分布统计、流行病研究疾病队列研究等。场景举例:临床研究、医学、健康教育、药品/医疗器械研发",
+            "安全措施要点": "宜进行去标识化处理，通过协议或领地公开共享模式管控，宜确保数据的完整性和真实性"
+        },
+        "level3": {
+            "name": "3级",
+            "数据特点": "业务要求：服务对象个人可识别，周边人不易识别；数据内容：部分个人可识别信息或代码，与其他信息内容分离，例如张XX、排队序号等；数据使用者:局部小范同人群",
+            "适用场合": "服务对象告知",
+            "特征与案例": "在公开场合通知服务对象例如门诊叫号、检查叫号体检服务叫号等",
+            "安全措施要点": "个人信息需部分遮蔽,环境与接收人数量受到限制"
+        },
+        "level4": {
+            "name": "4级",
+            "数据特点": "业务要求：必须准确识别个人；数据内容:包含完整准确的个人健康医疗数据数据；使用者:比较小范围人员、有审计和保护隐私义务",
+            "适用场合": "个性化服务与管理 ",
+            "特征与案例": "必须准确识别个人，例如针对个人的医疗服务、卫生健康服务,传染病管控、基因组测序等；场景举例:医院互联互通远程医疗、健康传感数据管理、移动应用、商业保险对接",
+            "安全措施要点": "由于涉及个人标识信息，环境与接收人宜严格管控，宜高标准保证数据完整性和可用性"
+        },
+        "level5": {
+            "name": "5级",
+            "数据特点": "业务要求:特殊疾病诊疗所必须；数据内容:特殊病种详细资料；数据使用者:极小范围人员、有审计、有保密义务",
+            "适用场合": "特殊疾病诊疗",
+            "特征与案例": "疾病极其敏感例如艾滋病等",
+            "安全措施要点": "严格的身份鉴别、访问控制等措施"
+        }
+    },
+    "classes": {
+        "classes_0": {
+            "name": "医院运营数据",
+            "description": "医院运营数据"
+        },
+        "classes_1": {
+            "name": "医院基本数据",
+            "description": "医院基本数据"
+        }
+    },
+    "dt": {
+        "bgclass_0": {
+            "name": "个人属性数据",
+            "description": "",
+            "class_0": {
+                "name": "个人身份信息",
+                "description": "包含有明显个人身份信息的数据",
+                "level": 4
+            }
+        },
+        "bgclass_1": {
+            "name": "医疗应用数据",
+            "description": "",
+            "class_0": {
+                "name": "检查检验数据",
+                "description": "",
+                "level": 4
+            },
+            "class_1": {
+                "name": "用药数据",
+                "description": "",
+                "level": 4
+            },
+            "class_2": {
+                "name": "麻醉数据",
+                "description": "",
+                "level": 4
+            },
+            "class_3": {
+                "name": "输血数据",
+                "description": "",
+                "level": 4
+            },
+            "class_4": {
+                "name": "住院信息",
+                "description": "",
+                "level": 4
+            },
+            "class_5": {
+                "name": "门诊信息",
+                "description": "",
+                "level": 4
+            },
+            "class_6": {
+                "name":"出院信息",
+                "description":"",
+                "level":4
+            },
+            "class_7": {
+                "name":"手术数据",
+                "description":"",
+                "level":4
+            },
+            "class_8": {
+                "name":"妊娠数据",
+                "description":"",
+                "level":4
+            },
+            "class_9": {
+                "name":"病情数据",
+                "description":"",
+                "level":4
+            },
+            "class_10": {
+                "name":"医嘱数据",
+                "description":"",
+                "level":4
+            },
+            "class_11": {
+                "name":"临床数据",
+                "description":"",
+                "level":4
+            },
+            "class_12": {
+                "name":"治疗数据",
+                "description":"",
+                "level":4
+            }
+        },
+        "bgclass_2": {
+            "name": "卫生资源数据",
+            "description": "",
+            "classes": [
+                0,1
+            ],
+            "class_0": {
+                "name": "日常数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_1": {
+                "name": "培训相关",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_2": {
+                "name": "物资数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_3": {
+                "name": "后勤相关",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_4": {
+                "name": "财务数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_5": {
+                "name": "人力数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_6": {
+                "name": "维护数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_7": {
+                "name": "图表数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_8": {
+                "name": "质量数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_9": {
+                "name": "报告数据",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_10": {
+                "name": "科室管理",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_11": {
+                "name": "错误相关",
+                "description": "",
+                "classes": 0,
+                "level": 3
+            },
+            "class_12": {
+                "name": "分类数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_13": {
+                "name": "疾病数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_14": {
+                "name": "文书数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_15": {
+                "name": "时间限制相关",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_16": {
+                "name": "科室数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_17": {
+                "name": "基础运行数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_18": {
+                "name": "区域配置数据",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            },
+            "class_19": {
+                "name": "药品信息",
+                "description": "",
+                "classes": 1,
+                "level": 3
+            }
+        },
+        "bgclass_3": {
+            "name": "医疗资金和支付数据",
+            "description": "",
+            "class_0": {
+                "name": "医疗交易信息",
+                "description": "",
+                "level": 3
+            },
+            "class_1": {
+                "name": "保险信息",
+                "description": "",
+                "level": 4
+            }
+        }
+    }
+}

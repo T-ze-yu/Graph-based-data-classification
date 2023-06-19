@@ -1,0 +1,16 @@
+,序号,数据项,"数据项名称（业务含
+义）",类型,长度,"可否为
+空","缺省
+值",备注说明
+1,1,AccPFS_ParRef,,DR,,,,"指向父表
+DHC_AccPFoot"
+2,2,AccPFS_RowID,RowID,RowID,,,,
+3,3,AccPFS_Sub,,Number,,,,
+4,4,AccPFS_AccM_DR,账户的 RowID,DR,,,,"指向
+DHC_AccManage r"
+5,5,AccPFS_PreLeft,前期余额,,,,,
+6,6,AccPFS_PrePay,收预缴金之和,,,,,
+7,7,AccPFS_CardPay,卡支付之和,,,,,
+8,8,AccPFS_CurLeft,本期余额,,,,,"这几个数值都是计算出来的算法
+可能比较麻烦"
+9,9,AccPFS_RefundPrePay,,,,,,退预缴金之和

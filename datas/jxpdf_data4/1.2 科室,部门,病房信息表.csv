@@ -1,0 +1,10 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,CT_Loc,User.CTLoc,科室,
+2,,RBC_DepartmentGroup,,科室部门组,
+3,4,PAC_Ward,User.PACWard,病区,
+4,6,PAC_WardRoom,User.PACWardRoom,病区房间(PAC_Ward  子表),
+5,5,PAC_WardBedAllocation,User.PACWardBedAllocation,科室与病区对照,
+6,,PAC_Room,,房间,
+7,7,PAC_RoomType,User. PACRoomType,病房类型,User.PACRoo
+8,8,PAC_Bed,User. PACBed,床位表,
+9,9,PAC_BedType,User. PACBedType,床位类型,

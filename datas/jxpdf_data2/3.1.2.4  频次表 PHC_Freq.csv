@@ -1,0 +1,10 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHCD_RowID,,RowID,
+2,-2,PHCD_Code,代码,Text,
+3,-3,PHCD_Name,描述,Text,
+4,4,PHCD_MIMSNo,MIMS No,Number,
+5,-5,PHCD_PHCSC_DR,药理学子分类,DR,指向表 PHC_SubCat
+6,6,PHCD_Logo,Logo - MIMS info,Text,
+7,7,PHCD_ProductName,Full name of the product,Text,
+8,-8,PHCD_PHCPO_DR,管制分类,DR,指向表 PHC_Poison
+9,9,PHCD_Stat,Stat - MIMS,Text,

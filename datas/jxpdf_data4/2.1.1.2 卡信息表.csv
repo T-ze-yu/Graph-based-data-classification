@@ -1,0 +1,5 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_CardTypeDef,User.DHCCardTypeDef,卡类型表,
+2,4,DHC_CardStatusChange,User.DHCCardStatusChange,卡状态修改表(DHC_CardRef 的子表),
+3,5,DHC_CardRef,User.DHCCardRef,卡信息表,
+4,6,DHC_CardINVPRT,User.DHCCardINVPRT,卡发票表,

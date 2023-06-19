@@ -1,0 +1,4 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,RBC_AppointMethod,User.RBCAppointMethod,预约方式,
+2,4,RB_Appointment,User. RBAppointment,预约表,
+3,5,DHC_RBAppointment,User.DHCRBCAppointment,预约表扩展表,

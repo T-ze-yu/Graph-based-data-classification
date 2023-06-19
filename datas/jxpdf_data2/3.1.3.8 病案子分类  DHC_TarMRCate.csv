@@ -1,0 +1,5 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TARMC_RowId,,RowId,
+2,-2,TARMC_Code,代码,Text,
+3,-3,TARMC_Desc,描述,Text,
+4,-4,TARMC_TARTMC_DR,指向大类,DR,指向 User.DHCTarMC

@@ -1,0 +1,17 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,ARC_ItmMast,User.ARCItmMast,医嘱项,
+2,,ARC_Alias,User.ARCAlias,医嘱项别名表,
+3,,ARC_ItmRecLoc,User.ARCItmRecLoc,医嘱项接收科室,
+4,,ARC_ItemCat,User.ARCItemCat,医嘱子分类,"^ARC(""IC"")"
+5,,ARC_ItemCatRecLoc,User.ARCItemCatRecLoc,医嘱子分类接收科室,
+6,,OEC_OrderCategory,User.OECOrderCategory,医嘱大类,"^OEC(""ORCAT"")"
+7,,OEC_OrdCatRecLoc,User.OECOrdCatRecLoc,医嘱大类接收科室,
+8,,OEC_OrderType,User.OECOrderType,医嘱类型,"^OEC(""TYP"")"
+9,,OEC_OrderStatus,User.OECOrderStatus,医嘱状态表,"^OEC(""OSTAT"")"
+10,,ARC_BillGrp,User.ARCBillGrp,帐单类,m
+11,,ARC_BillSub,User.ARCBillSub,帐单子类(只有统计组用到),
+12,,OEC_Order_AdminStatus,User.OECOrderAdminStatus,医嘱执行状态表,
+13,,ARC_OrdSets,User.ARCOrdSets,医嘱套,
+14,,DHC_UserFavItems,User.DHCUserFavItems,个人医嘱套,"ARC_ORDSETS -
+ARC_OrdSetDat ARC_OrdSetDat"
+15,,OEC_Priority,User.OECPriority,"医嘱类型(长期,临时)",

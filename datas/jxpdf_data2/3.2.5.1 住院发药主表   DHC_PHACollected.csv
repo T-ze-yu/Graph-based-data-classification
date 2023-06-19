@@ -1,0 +1,16 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,DHC_PHACollect_RowID,Row ID,Rowid,
+2,-2,DHC_PHALoc_DR,发药科室,DR,CT_Loc
+3,-3,DHC_PHACollectDate,发药日期,Date,
+4,-4,DHC_PHACollectTime,发药时间,Time,
+5,-5,DHC_PHAWard_DR,病区,DR,PAC_Ward
+6,-6,DHC_PHAOperator,发药人（操作者）,DR,SS_User
+7,-7,DHC_PHACollectStatus,发药状态（Print）,Text,
+8,8,DHC_PHAPrintDate,打印日期,Date,
+9,9,DHC_PHAPrintTime,打印时间,Time,
+10,10,DHC_PHACounts,Itm 的个数,Number,
+11,11,DHC_PHADateFrom,本次发药的起始日期,Date,
+12,12,DHC_PHADateTo,截止日期,Date,
+13,-13,DHC_PHAOrdType,药品类型（发药类别）,Text,
+14,14,DHC_PHADispNo,发药单号,Text,
+15,15,DHC_PHACollectUser,护士,DR,SS_User

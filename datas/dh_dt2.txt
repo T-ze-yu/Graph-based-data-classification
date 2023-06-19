@@ -1,0 +1,141 @@
+3.1  基础数据
+3.1.1 基础字典表
+3.1.1.1 医院表 CT_Hospital
+3.1.2 用户表 SS_User
+3.1.3 科室表  CT_Loc
+3.1.4  病区表 PAC_Ward
+3.1.5 医护人员表 CT_CareProv
+3.1.6 患者(身份)类型  CT_SocialStatus
+3.1.7 患者费别  PAC_AdmReason
+3.1.8    病人信息字典表
+3.1.8.1 性别表 CT_Sex
+3.1.8.2 邮编表 CT_Zip
+3.1.8.3 出生地表、城市表 CT_City
+3.1.8.4 婚姻状况表 CT_Marital
+3.1.8.5 职业表 CT_Occupation
+3.1.8.6 病人血型表 PAC_BloodType
+3.1.8.7 教育水平表 CT_Education
+3.1.12 出诊级别  RBC_SessionType
+3.1.9 预约方式  RBC_AppointMethod
+3.1.10 三大项基础信息
+3.1.10.1 医嘱大类  OEC_OrderCategory
+3.1.10.2 医嘱子类  ARC_ItemCat
+3.1.10.3 医嘱项 ARC_ItmMast
+3.1.10.4  频次表 PHC_Freq
+3.1.10.5 用药途径(方式)    PHC_Instruc
+3.1.10.6 药学项主表 PHC_DrgMast
+3.1.10.6 药(理)学大类 PHC_Cat
+3.1.10.7 药(理)学子类 PHC_SubCat
+3.1.10.8 药学形态  PHC_DrgForm
+3.1.10.9 管制分类  PHC_Poison
+3.1.10.10 剂型  PHC_Form
+3.1.10.11 库存项 INC_Itm
+3.1.11 计费基础信息
+3.1.11.1 收费项目  DHC_TarItem
+3.1.11.2 会计子分类   DHC_TarAcctCate
+3.1.11.3 核算大类  DHC_TarAC
+3.1.11.4 核算子分类  DHC_TarEMCCate
+3.1.11.5 核算大类    DHC_TarEC
+3.1.11.6 住院子分类  DHC_TarInpatCate
+3.1.11.7 住院大类  DHC_TarIC
+3.1.11.8 病案子分类  DHC_TarMRCate
+3.1.11.9 病案大类  DHC_TarMC
+3.1.11.10 门诊子分类  DHC_TarOutpatCate
+3.1.11.11 门诊大类  DHC_TarOC
+3.1.11.12 收费子分类  DHC_TarSubCate
+3.1.11.13 收费大类  DHC_TarCate
+3.1.11.14  费用项目价格表 DHC_TarItemPrice
+3.1.11.15 医嘱与收费项目关联表 dhc_orderlinktar
+3.1.11.16 费用项目别名表 DHC_TarItemAlias
+3.1.11.17 病人折扣,记账系数表 DHC_TarFactor
+3.1.11.18 病人类别与标准价格 DHC_TarEpisode
+3.1.11.19 医嘱计费点设定 DHC_BillCondition
+3.1.11.20 病人就诊类别 PAC_EpisodeSubType
+3.1.11.21 银行字典 CMC_BankMas
+3.1.11.22 预交金支付方式字典 CT_PayMode
+3.1.11.23 预交金类型字典 ARC_DepType
+3.1.11.24 欠费类别表  ARC_DisretOutstType
+3.2 业务表
+3.2.1  病人信息
+3.2.1.1 病人基本信息表主表 PA_PatMas
+3.2.1.2 病人基本信息表  PA_Person
+3.2.2 就诊信息
+3.2.2.1 就诊表 PA_Adm
+3.2.3 诊断信息
+3.2.3.1 诊断主表  MR_Adm
+3.2.3.2 诊断子表  MR_Diagnos
+3.2.3.3 诊断状态  MRC_DiagnosStatus
+3.2.3.4 诊断ICD码  MRC_ICDDx
+3.2.4 医嘱信息
+3.2.4.1 医嘱主表  OE_Order
+3.2.4.2 医嘱明细  OE_OrdItem
+3.2.4.3 医嘱状态  OEC_OrderStatus
+3.2.4.4 医嘱扩展表 DHC_OE_OrdItem
+3.2.4.5 医嘱执行表  OE_OrdExec
+3.2.4.6 医嘱执行扩展表 DHC_OE_OrdExec
+3.2.5 住院发药信息表
+3.2.5.1 住院发药主表   DHC_PHACollected
+3.2.5.2 住院发药从表   DHC_PHACollectItm
+3.2.5.3 退药记录主表   DHC_PhaReturn
+3.2.5.4 退药记录子表 DHC_PhaReturnItm
+3.2.5.4  退药申请单 DHC_PhaRetRequest
+3.2.5.5 退药申请单子表
+3.2.6 门诊发药信息
+3.2.6.1 门诊发药  DHC_PhDispen
+3.2.6.2 门诊发药子表 DHC_PHDISITEM
+3.2.6.3 门诊退药 DHC_PhReturn
+3.2.7 住院计费信息
+3.2.7.1 账单主表  DHC_PatientBill
+3.2.7.2 账单明细表(账单字表)     DHC_PatBillOrder
+3.2.7.3 账单收费项目明细表(账单孙子表)     DHC_PatBillDetails
+3.2.7.3 住院发票表   DHC_InvprtZY
+3.2.7.4 收费员日报结算表 dhc_jfuserjk
+3.2.7.5 收费员日报表分类结算明细 DHC_JFUserjkCatFee
+3.2.7.6 住院担保 dhc_warrant
+3.2.7.7 预交金，应收款结算余额表 dhc_jfyjacount
+3.2.7.8 应收款结算分类余额表 dhc_jffeeacount
+3.2.7.9 欠费补交表 dhc_jfqftotal
+3.2.7.10 支票到帐表 dhc_jfbankback
+3.2.7.11 押金收据管理
+3.2.7.11.1 押金收据购入 dhc_sfbuy
+3.2.7.11.2 财务科收据发放 dhc_sfgrant
+3.2.7.11.3 住院处收据发放 dhc_sfreceipt
+3.2.7.11.4 押金收据(发票购入)组定义 DHC_jfrcptgroupset
+3.2.7.11.5 押金收据（发票）人员定义 DHC_JFRcptGroupUser
+3.2.7.11.6 退押金原因 DHC_jfyjrefreason
+3.2.7.12 发票管理
+3.2.7.12.1 发票购入 dhc_amtmag
+3.2.7.12.2 管理员领取发票 dhc_amtdel
+3.2.7.12.3 收费员领取发票 DHC_INVOICE
+3.2.7.13 押金管理
+3.2.7.13.1 预交金明细 dhc_sfprintdetail
+3.2.7.13.2  病人支付纪录表(预缴金、支付、退款) AR_Receipts(^ARRCP)
+3.2.7.13.3 病人支付分配表 AR_RcptAlloc
+3.2.7.13.4  押金明细，出院结算 Ar_rcptpaymode
+3.2.11  门诊收费信息
+3.2.11.1 收据信息主表 Dhc_invprt
+3.2.11.2 票据账单连接表：DHC_BillConINV
+3.2.11.3 支付方式表 DHC_INVPayMode
+3.2.8 统计信息
+3.2.8.1 收入数据表  DHC_WorkLoad
+3.2.8.2 挂号基础数据表  DHCWorkRegReport
+3.2.8.3 工作量基础数据表  DHCMRIPDay
+3.2.8.4 工作量明细数据表  DHC_MRIPDetail
+3.2.8.5 急诊累计数据表  DHCWLAddReport
+3.2.8.6 床位维护表  DHC_MRBed
+3.2.9 手术麻醉信息
+3.2.9.1 麻醉表  DHCWL_Anaesthesia
+3.2.9.1 手术表 DHCWL_AnOperation
+3.2.10 就诊卡管理表
+3.2.10.1  卡类型表 DHC_CardTypeDef
+3.2.10.1 卡信息表 DHC_Cardref
+3.2.10.2 卡的状态变化表：DHC_CardStatusChange
+3.2.10.3 证件类型：DHC_CredType
+3.2.10.4 卡账户表 DHC_AccManager
+3.2.10.5 预交金流水账：DHC_AccPreDeposit
+3.2.10.6 卡帐户预交金的支付方式表 DHC_AccPrePayMode
+3.2.10.7 卡支付流水帐表：DHC_AccPayList
+3.2.10.8 卡支付与预交金结算流水帐对帐：DHC_AccPFoot
+3.2.10.9 卡支付流水帐结算子表：DHC_AccPFootSub
+3.2.10.10 预交金结算日报：DHC_AccPDFootLog
+3.2.10.11 账户更改日志表 DHC_AccStatusChange

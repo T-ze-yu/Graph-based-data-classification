@@ -1,0 +1,11 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,OE_Order,User.OEOrder,医嘱主表,
+2,4,OE_OrdItem,User.OEOrdItem,医嘱子表(OE_Order 的子表),
+3,5,OE_OrdExec,User.OEOrdExec,医嘱执行记录表(OE_OrdItem 的子表),
+4,6,OE_OrdExecStatus,User.OEOrdExecStatus,医嘱执行状态表(OE_OrdExec 的子表),
+5,,OE_OrdItemExt,User.OEOrdItemExt,医嘱扩展表,
+6,,OE_OrdExecExt,User.OEOrdExecExt,医嘱执行记录扩展表,
+7,7,DHC_OEDispensing,User.DHCOEDispensing,药品分发表,
+8,8,PA_Que1,User.PAQue1,处方表,
+9,,DHC_OE_OrdItem,User.DHCOEOrdItem,表 OE_OrdItem 的扩展表,
+10,,DHC_OE_OrdExec,User.DHCOEOrdExec,表 OE_OrdExec 的扩展表,

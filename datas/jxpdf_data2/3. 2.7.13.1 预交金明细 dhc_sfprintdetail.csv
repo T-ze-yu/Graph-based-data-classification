@@ -1,0 +1,12 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,prt_rowid,,RowId,
+2,-2,prt_rcptno,收据号,Text,
+3,-3,prt_printdate,打印日期,Text,
+4,-4,prt_printtime,打印时间,String,
+5,,prt_adm_dr,指向 pa_adm,,
+6,,prt_rcpt_dr,指向 ar_receipts,,
+7,,prt_payamount,金额,,
+8,,prt_refundrcpt,被冲红的收据号,,
+9,,,收 据 状 态 “1” 正,,
+10,,prt_status,"常，”2”作废，”3”
+冲 红 ， ”4” 已 冲",,

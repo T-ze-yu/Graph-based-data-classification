@@ -1,0 +1,64 @@
+,序号,Col 名称,含义,类型,备注
+1,-1,INCI_RowID,Row ID,RowID,PK
+2,2,INCI_INCPO_DR,"库存类型
+RowID",DR,INC_POGroup
+3,3,INCI_INCTG_DR,"盘点类型
+RowID",DR,INC_StkTkGp
+4,4,INCI_INCCA_DR,"Not Used Des
+Ref to INCCA (Ctrl Account)",%String,
+5,5,INCI_CTVAT_DR,增值税 RowID,DR,CT_Vat
+6,6,INCI_CTLOC_DR,科室 RowID,DR,CT_Loc
+7,7,INCI_MinQty,"最低允许库存
+量",%Float,"库存量低于该值时
+，系统停止出库。"
+8,8,INCI_MaxQty,"最高允许库存
+量",%Float,"库存量高于该值时，
+系统停止进货。"
+9,9,INCI_ReordLevel,进货下限,%Float,"库存量低于该值时
+，系统自动进货，补充库存。"
+10,10,INCI_ReordQty,一次进货数量,%Float,
+11,-11,INCI_CTUOM_DR,最小单位,DR,CT_UOM
+12,12,INCI_INCSC_DR,"库存分类
+RowID",DR,INC_StkCat
+13,-13,INCI_LogQty,可用数量,%Float,
+14,14,INCI_UnitCost,Unit cost,%Float,
+15,-15,INCI_NotUseFlag,Not use flag,%String,"Y,N"
+16,16,INCI_IsTrfFlag,出库方式,%String,
+17,-17,INCI_ARCIM_DR,医嘱项,DR,computed
+18,-18,INCI_Code,库存项代码,%string,
+19,-19,INCI_Desc,库存项描述,%string,
+20,20,INCI_Remarks,备注,list,
+21,21,INCI_BatchReq,是否要求批号,%string,"要求批号，
+不要求批号，随意"
+22,22,INCI_ExpReq,"是否需要有效
+期",%string,"要求有效期，
+不要求有效期，随意"
+23,-23,INCI_OriginalARCIM_DR,医嘱项,DR,ARC_ItmMast
+24,24,INCI_Sterile,消毒标志,%string,"Y,N"
+25,25,INCI_DirtyQty,占用库存数量,%float,"保存但未审核的
+数量（出库）"
+26,26,INCI_FinanceCategory,"Finance
+Category",%string,
+27,27,INCI_SterCat_DR,"消毒用品分类
+RowID",DR,INC_SterileCategory
+28,28,INCI_UpdateDate,Update date,%date,
+29,29,INCI_UpdateTime,Update time,%time,
+30,30,INCI_UpdateUser,Update user,DR,SS_User
+31,31,INCI_StockQtyLastYear,"上一年的库存
+量",%float,
+32,32,INCI_StockAmtLastYear,"上一年的库存
+金额",%float,
+33,33,INCI_CTUOM_Purch_DR,"定货单位（入库
+单位）",DR,CT_UOM
+34,34,INCI_FinalVendor_DR,供货商 RowID,DR,Computed APC_Vendor
+35,35,INCI_StockLocations,库存位置,%string,
+36,36,INCI_WardStock,补充库存方式,%string,
+37,37,INCI_BarCode,"BarCode（存储
+规格）",%string,
+38,38,INCI_Account_DR,Des Ref Account,DR,GLC_Acct
+39,39,INCI_ReportingDays,Reporting days,%string,
+40,40,INCI_Account1_DR,"Des Ref
+Account1",DR,GLC_Acct
+41,41,INCI_PrefVendor_DR,"Des Ref
+PrefVendor",DR,APC_Vendor
+42,42,INCI_INCSC_DR,,DR,INC_StkCat

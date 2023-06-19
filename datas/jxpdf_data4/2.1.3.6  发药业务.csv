@@ -1,0 +1,4 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,DHC_PHARWIN,,门诊药房,
+2,4,DHC_PHDISPEN,,发药表,
+3,5,DHC_PHDISITEM,,发药明细,

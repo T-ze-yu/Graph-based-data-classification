@@ -1,0 +1,7 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHCPO_RowId,,RowID,
+2,-2,PHCPO_Code,代码,Text,
+3,-3,PHCPO_Desc,描述,Text,
+4,4,PHCPO_MHRpt,Minstry 报告,Y/N,
+5,5,PHCPO_OTCFlag,超出计数,Y/N,
+6,6,PHCPO_SaleRpt,销售记录,Y/N,

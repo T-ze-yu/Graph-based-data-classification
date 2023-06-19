@@ -1,0 +1,77 @@
+,序号,字段名称,说明,类型,备注
+1,1,WorkLoad_ARPBL_DR,帐单号 DHC_PatientBill,"Designative
+Reference",
+2,2,WorkLoad_BillGrp_DR,帐单大类 ARC_BillGrp,"Designative
+Reference",
+3,3,WorkLoad_BillSub_DR,帐单子类 ARC_BillSub,"Designative
+Reference",
+4,4,WorkLoad_CasherI_DR,SS_User,"Designative
+Reference",
+5,5,WorkLoad_CasherO_DR,SS_User,"Designative
+Reference",
+6,6,WorkLoad_DisDate,,Date,
+7,7,WorkLoad_DisFlag,,Text,
+8,8,WorkLoad_Flag,,Text,
+9,9,WorkLoad_FlagDate,结算日期,Date,
+10,10,WorkLoad_FlagTime,,Time,
+11,11,WorkLoad_HoldDep_DR,CT_Loc,"Designative
+Reference",
+12,12,WorkLoad_HoldDoc_DR,CT_CareProv,"Designative
+Reference",
+13,13,WorkLoad_HoldFlag,,Text,
+14,14,WorkLoad_HoldFlagDate,,Date,
+15,15,WorkLoad_ItemCat_DR,医嘱子类,"Designative
+Reference",指向 ARC_ItemCat
+16,16,WorkLoad_ItemOrd_DR,医嘱项,"Designative
+Reference",指向 ARC_ItmMast
+17,17,WorkLoad_OEORI_DR,医嘱 OE_OrdItem,Designative Reference,
+18,18,WorkLoad_OrdDate,医嘱日期,Date,
+19,19,WorkLoad_OrdStatus,,"Multiple
+Choice",
+20,20,WorkLoad_OrdTime,,,
+21,21,WorkLoad_PAADM_DR,Pa_adm,"Designative
+Reference",指向 Pa_adm
+22,22,WorkLoad_PAPMI_DR,PA_PatMas,"Designative
+Reference",
+23,23,WorkLoad_PatDep_DR,下医嘱科室 CT_Loc,"Designative
+Reference",
+24,24,WorkLoad_PatDoc_DR,病人医生 CT_CareProv,"Designative
+Reference",
+25,25,WorkLoad_PatWard_DR,病人病区 CT_Loc,"Designative
+Reference",
+26,26,WorkLoad_Quantity,医嘱数量,,
+27,27,WorkLoad_RecDep_DR,执行科室 CT_Loc,"Designative
+Reference",
+28,28,WorkLoad_RecDoc_DR,执行医生 CT_CareProv,"Designative
+Reference",
+29,29,WorkLoad_ReceiptI_DR,,Text,
+30,30,WorkLoad_ReceiptO_DR,,Text,
+31,31,WorkLoad_ResDep_DR,病人科室 CT_Loc,"Designative
+Reference",
+32,32,WorkLoad_ResDoc_DR,下医嘱医生 CT_CareProv,"Designative
+Reference",
+33,33,WorkLoad_Rowid,,Row ID,
+34,34,WorkLoad_StatDate,插入数据日期,Date,
+35,35,WorkLoad_StatTime,,Time,
+36,36,WorkLoad_TarAC_dr,会计分类 DHC_TarAcctCate,"Designative
+Reference",
+37,37,WorkLoad_TarEC_Dr,核算分类 DHC_TarEMCCate,"Designative
+Reference",
+38,38,WorkLoad_TarIC_Dr,住院分类 DHC_TarInpatCate,"Designative
+Reference",
+39,39,WorkLoad_TarItem_DR,收费项目 DHC_TarItem,"Designative
+Reference",
+40,40,WorkLoad_TarMC_Dr,病案分类 DHC_TarMRCate,"Designative
+Reference",
+41,41,WorkLoad_TarOut_Dr,"门诊分类
+DHC_TarOutpatCate","Designative
+Reference",
+42,42,WorkLoad_TarSC_Dr,DHC_TarSubCate,Designative Reference,
+43,43,WorkLoad_TotalPrice,费用,,
+44,44,WorkLoad_Type,病人类型,"Multiple
+Choice",
+45,45,WorkLoad_UnitPrice,单价,,
+46,46,WorkLoad_UserDep_DR,,"Designative
+Reference",
+47,47,WorkLoad_User_DR,,"Designative
+Reference",

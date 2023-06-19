@@ -1,0 +1,6 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHCF_RowID,,,
+2,-2,PHCF_Code,代码,%String,
+3,-3,PHCF_Desc,描述,%String,
+4,4,PHCF_TIMSno,"TIMS No（管理科
+学学会 no）",%string,

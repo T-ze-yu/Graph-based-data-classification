@@ -1,0 +1,8 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,INC_Itm,User.INCItm,库存项,
+2,4,INC_ItmLoc,User.INCItmLoc,科室库存表(INC_Itm 的子表),
+3,5,INC_ALIAS,User.INCALIAS,库存项别名表,
+4,6,INC_StkCat,,库存分类,
+5,7,INC_STKTKGP,,盘点分类,
+6,8,APC_VENDOR,,供应商,
+7,9,PH_Manufacturer,,产地,

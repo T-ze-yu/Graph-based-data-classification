@@ -1,0 +1,7 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,INSU_DicData,User.INSUDicData,医保字典维护,
+2,6,INSU_TarItems,User.INSUTarItems,医保三大目录字典（药品、诊疗、服务设施）,
+3,7,INSU_TarContrast,User.INSUTarContrast,医保三大目录对照,
+4,9,INSU_AdmInfo,User.INSUAdmInfo,医保就诊信息,
+5,,INSU_Divide,User.INSUDivide,医保结算信息,
+6,,INSU_DivideSub,User.INSUDivideSub,医保收费项分解表,

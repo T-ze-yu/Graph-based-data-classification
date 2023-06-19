@@ -1,0 +1,21 @@
+,序号,数据项,业务含义,类型,备注,
+1,-1,PAADM_RowID,,RowId,,
+2,-2,PAADM_PAPMI_DR,病人登记号指针,DR,指向 PA_PatMas,
+3,-3,PAADM_Type,病人就诊类型,Text,"I：住院；O：门诊；E：
+急诊；H：体检",
+4,-4,PAADM_DepCode_DR,（入院）科室,DR,,
+5,-5,"PAADM_AdmDate，
+PAADM_AdmTime","（入院、就诊）日
+期时间",Date,,
+6,-6,PAADM_AdmDocCodeDR,"（入院、就诊）医
+生，管床医生",,,
+7,-7,PAADM_VisitStatus,本次就诊状态,A：在院；D：出院；C：取消入院,,
+8,-8,PAADM_CurrentWard_DR,入院病区,DR,,
+9,-9,PAADM_CurrentBed_DR,床位,DR,,
+10,-10,PAADM_MainMRAdm_DR,诊断主表指针,DR,,
+11,-11,PAADM_DischgDate,（出院）日期,Date,,
+12,-12,PAADM_DischgTime,（出院）时间,Date,,
+13,-13,PAADM_FirstOrReadm,是否初复诊,Text,F：初诊,R：复诊
+14,-14,PAADM_IsBooking,是否预约挂号,Text,C：普通,B：预约
+15,-15,PAADM_IsPlus,是否为加号,Text,Y：加号,N：不是加号
+16,-16,PAADM_CreateUser_DR,操作人员,DR,指向 SS_User,

@@ -1,0 +1,5 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TAREC_RowId,,RowId,
+2,-2,TAREC_Code,代码,Text,
+3,-3,TAREC_Desc,描述,Text,
+4,-4,TAREC_TARTEC_DR,指向大类,DR,指向 User.DHCTarEC

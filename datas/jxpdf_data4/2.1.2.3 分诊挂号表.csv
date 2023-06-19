@@ -1,0 +1,9 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,,,,
+2,4,DHCQueue,User.DHCQueue,挂号队列表,
+3,5,DHCExaBorough,User.DHCExaBorough,分诊区,
+4,6,DHCExaBorDep,User.DHCExaBorDep,分诊区科室对照,
+5,7,DHCExaRoom,User.DHCExaRoom,诊室,
+6,,DHCDepMark,User.DHCDepMark,科室号别对照表,
+7,,DHCFirstCode,User.DHCFirstCode,"分诊优先状态表(优先, 正常)",
+8,,DHCPerState,User.DHCPerState,"分诊状态表(等候, 过号,到达, 报到)",

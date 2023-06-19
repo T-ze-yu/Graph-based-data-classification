@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHCC_RowID,,Row ID,
+2,-2,PHCC_Code,代码,Text,
+3,-3,PHCC_Desc,描述,Text,

@@ -1,0 +1,55 @@
+,序号,字段名称,说明,类型,备注
+1,1,WR_Rowid,Rowid,Row id,
+2,2,WR_PAADM_DR,PA_Adm_rowid,"Designative
+Reference",
+3,3,WR_SQINV_DR,DHC_Sqinv_rowid,"Designative
+Reference",
+4,4,WR_ADMDoc_DR,挂号医生,"Designative
+Reference",
+5,5,WR_ADMDEP_DR,所挂科室,"Designative
+Reference",
+6,6,WR_ADMReason_DR,病人类型,"Designative
+Reference",
+7,7,WR_ADMDate,挂号日期,Date,
+8,8,WR_RegUser,挂号员,"Designative
+Reference",
+9,9,WR_RegType_Dr,挂号类别,"Designative
+Reference",
+10,10,WR_PAPMI_Dr,病人 papmi,"Designative
+Reference",
+11,11,WR_AAMT,实际金额总数,Number,
+12,12,WR_Abook,实际病历本费用,Number,
+13,13,WR_Areg,实际挂号费,Number,
+14,14,WR_Adia,实际诊疗费,Number,
+15,15,WR_Status,状态,"Multiple
+Choice",
+16,16,WR_HandDate,上交日期,Date,
+17,17,WR_Flag1,预约标志,text,
+18,18,WR_Flag2,号别种类标志,Text,
+19,19,WR_Flag3,打折标志,Text,
+20,20,WR_ Flag4,按号打折标志,Text,
+21,21,WR_Flag5,按金额打折标志,Text,
+22,22,WR_text1,预留字段 1,Text,
+23,23,WR_text2,预留字段 2,Text,
+24,24,WR_StatDate,记录插入表日期,Date,
+25,25,WR_StatTime,记录插入表时间,Time,
+26,26,WR_DateMonFlag,挂号日期月标志,Text,
+27,27,WR_SundayServer,周六周日业余服务,Text,
+28,28,WR_ AAMTRatio,提成金额（科室）,Number,
+29,29,WR_NumberFlag,挂号人次,Number,
+30,30,WR_ADMTime,挂号时间,Time,
+31,31,WR_CountFlag,挂号次数,Number,
+32,32,WR_HolidayServer,节假日,Number,
+33,33,WR_Text3,,Text,
+34,34,WR_Text4,,Text,
+35,35,WR_ADMSource_DR,病人来源,"Designative
+Reference",
+36,36,WR_AdmReadm,初复诊,,
+37,37,WR_AppMethod,预约方式,,
+38,38,WR_AppFee,预约费用,,
+39,39,WR_AdmAge,年龄,,
+40,40,WR_AdmCity,城市,,
+41,41,WR_AdmCityarea,区域,,
+42,42,WR_AdmAddress,地址,,
+43,43,WR_DocAMTRatio,医生提成,,
+44,44,WR_MedicareFee,医保卡挂号费用,,

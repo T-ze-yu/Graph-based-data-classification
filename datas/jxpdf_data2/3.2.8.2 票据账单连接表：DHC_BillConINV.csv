@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,DHCBCI_ADMDR,指向 PA_Adm,,
+2,-2,DHCBCI_INVDR,指向 DHC_INVPRT,,
+3,-3,DHCBCI_PatBillDR,指向 DHC_PatientBill,,

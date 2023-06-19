@@ -1,0 +1,25 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,OEORI_RowID,Row ID,Rowid,
+2,-2,OEORI_OEORD_ParRef,医嘱主表,DR,OE_Order
+3,3,OEORI_Childsub,New key,numeric,
+4,-4,OEORI_ItmMast_DR,医嘱项,DR,ARC_ItmMast
+5,-5,OEORI_OrdDept_DR,开医嘱科室,DR,CT_Loc
+6,-6,OEORI_ItemStat_DR,医嘱状态,DR,OEC_OrderStatus
+7,-7,OEORI_Doctor_DR,开医嘱医生,DR,CT_CareProv
+8,-8,OEORI_SttDat,医嘱开始日期,Date,
+9,-9,OEORI_SttTim,医嘱开始时间,Time,
+10,-10,OEORI_Priority_DR,医嘱优先级,DR,OEC_Priority
+11,-11,OEORI_Unit_DR,剂量单位,,剂量单位
+12,-12,OEORI_PhQtyOrd,医嘱剂量,,Sqlcomputed
+13,-13,OEORI_XDate,医嘱停止日期,,
+14,-14,OEORI_UnitCost,单价,,
+15,-15,OEORI_DRCross_DR,医嘱停止人,DR,SS_User
+16,-16,OEORI_XTime,医嘱停止时间,,
+17,-17,OEORI_Qty,数量,String,"对应于 INC_Itm 中
+INCI_CTUOM_DR"
+18,-18,OEORI_AdministerSkinTest,是否要求皮试,String,"Y，N,设为 Y 时，发药时必须检测皮试结果是否正常"
+19,-19,OEORI_Abnormal,"皮试结果是否异
+常",String,Y，N，Y 表示异常
+20,-20,OEORI_UserAdd,医生,DR,SS_User
+21,-21,OEORI_UserDepartment_DR,医生科室,DR,CT_Loc
+22,-22,OEORI_Date,医嘱当前日期,Date,

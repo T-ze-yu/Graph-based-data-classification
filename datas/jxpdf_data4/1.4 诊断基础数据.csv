@@ -1,0 +1,4 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,MRC_DiagnosType,User. MRCDiagnosType,"诊断类型表(出院诊断,主诊断,入院诊断)",
+2,4,MRC_ICDAlias,User. MRCICDAlias,别名表,
+3,5,MRC_ICDDx,User.MRCICDDx,诊断表,"^MRC(""ID"""

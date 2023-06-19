@@ -1,0 +1,18 @@
+,序号,数据项,数据项名称（业务含义）,类型,长度,"可否为
+空","缺省
+值",备注说明
+1,1,CSC_CF_ParRef,,,,,,
+2,2,CSC_RowID,,,,,,
+3,3,CSC_Sub,,,,,,
+4,4,CSC_Date,状态变化日期,,,,,
+5,5,CSC_Time,状态变化时间,,,,,
+6,6,CSC_CurStatus,当前的状态,Multi,,,,"同上的状态
+N||Normal    正常
+S||Suspend    挂失
+R||Reclaim    回收
+D||Depose    作废(此时，不能再次使用)"
+7,7,CSC_User_DR,操作员,DR,,,,
+8,8,CSC_ComputerIP,计算机的 IP,Text,,,,
+9,9,CSC_Note1,,,,,,
+10,10,CSC_Note2,,,,,,
+11,11,CSC_Note3,,,,,,

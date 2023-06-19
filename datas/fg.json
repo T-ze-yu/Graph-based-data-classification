@@ -1,0 +1,279 @@
+{
+    "level": {
+        "level1": {
+            "name": "1",
+            "Sensitivity": "不包含个人敏感信息，通过任何技术手段均不能识别到具体自然人身份的数据",
+            "knowledge": "可通过一定的技术手段识别到个人，且包含个人高度敏感信息的数据:或涉及国家秘密、法律法规和国家规定不应开放的数据",
+            "Data_Risk": "开放后无负面影响或轻微负面影响，对影响对象造成轻微损害，且结果可以补救，无明显不良影响"
+        },
+        "level2": {
+            "name": "2",
+            "Sensitivity": "可通过一定的技术手段识别到个人，但是不包含个人敏感信息的数据;或包含个人较敏感信息，但通过任何技术手段均不能识别到具体自然人身份的数据",
+            "knowledge": "需使特定范围内的对象知晓",
+            "Data_Risk": "开放会有一般负面影响，对影响对象造成一般损害，且结果可以补救，短期内可以消除不良影响"
+        },
+        "level3": {
+            "name": "3",
+            "Sensitivity": "可通过一定的技术手段识别到个人，且包含个人较敏感信息的数据",
+            "knowledge": "仅特定范围内对象知晓，且该部分人群有保护隐私的义务",
+            "Data_Risk": "大范围共享会产生严重负面影响，对影响对象造成严重损害，且结果难以补救，短期内难以消除不良影响"
+        },
+        "level4": {
+            "name": "4",
+            "Sensitivity": "可通过一定的技术手段识别到个人，且包含个人高度敏感信息的数据:或涉及国家秘密、法律法规和国家规定不应开放的数据",
+            "knowledge": "除某些特殊场景外，不能开放共享，且在这些特殊场景内也需符合国家相关规定",
+            "Data_Risk": "高度敏感、泄露会产生特别严重的负面影响，对影响对象造成特别严重损害，且结果无法补救，长期内难以消除不良影响"
+        }
+    },
+    "classes": {
+        "classes_0": {
+            "name": "医院运营数据",
+            "description": "医院运营数据"
+            },
+        "classes_1": {
+            "name": "医院基本数据",
+            "description": ""
+        }
+    },
+    "dt": {
+        "blclass_0": {
+            "name": "个人属性数据",
+            "description": "",
+            "class_0": {
+                "name":"患者身份信息",
+                "description":"",
+                "level":4,
+                "content_0":{
+                    "name":"姓名",
+                    "description":""
+                },
+                "content_1":{
+                    "name":"地点",
+                    "description":""
+                },
+                "content_2":{
+                    "name":"日期",
+                    "description":""
+                },
+                "content_3":{
+                    "name":"国家",
+                    "description":""
+                },
+                "content_4":{
+                    "name":"公司",
+                    "description":""
+                },
+                "content_5":{
+                    "name":"民族",
+                    "description":""
+                },
+                "content_6":{
+                    "name":"职位",
+                    "description":""
+                }
+            },
+            "class_1": {
+                "name":"员工身份信息",
+                "description":"",
+                "level":4
+            },
+            "class_2": {
+                "name":"其他身份信息",
+                "description":"",
+                "level":4
+            }
+        },
+        "blclass_1": {
+            "name": "医疗应用数据",
+            "description": "",
+            "class_0": {
+                "name":"检查检验数据",
+                "description":"",
+                "level":3,
+                "content_0":{
+                    "name":"检查项目号",
+                    "description":""
+                }
+            },
+            "class_1": {
+                "name":"护理数据",
+                "description":"",
+                "level":3
+            },
+            "class_2": {
+                "name":"病历数据",
+                "description":"",
+                "level":4
+            },
+            "class_3": {
+                "name":"病程数据",
+                "description":"",
+                "level":3
+            },
+            "class_4": {
+                "name":"病人回访数据",
+                "description":"",
+                "level":4
+            },
+            "class_5": {
+                "name":"用药数据",
+                "description":"",
+                "level":2
+            },
+            "class_6": {
+                "name":"手术数据",
+                "description":"",
+                "level":3
+            },
+            "class_7": {
+                "name":"麻醉数据",
+                "description":"",
+                "level":3
+            },
+            "class_8": {
+                "name":"输血数据",
+                "description":"",
+                "level":3
+            },
+            "class_9":{
+                "name":"住院数据",
+                "description":"",
+                "level":3
+            },
+            "class_10":{
+                "name":"出院数据",
+                "description":"",
+                "level":3
+            }
+        },
+        "blclass_2": {
+            "name": "卫生资源数据",
+            "description": "",
+            "classes":[0,1],
+            "class_0": {
+                "name":"科研相关",
+                "description":"",
+                "classes":0,
+                "level":3
+            },
+            "class_1": {
+                "name":"日常相关",
+                "description":"",
+                "classes":0,
+                "level":3,
+                "content_0":{
+                    "name":"访问权限",
+                    "description":""
+                },
+                "content_1":{
+                    "name":"日期",
+                    "description":""
+                },
+                "content_2":{
+                    "name":"操作日志",
+                    "description":""
+                },
+                "content_3":{
+                    "name":"mac地址",
+                    "description":""
+                },
+                "content_4":{
+                    "name":"ipv4地址",
+                    "description":""
+                },
+                "content_5":{
+                    "name":"邮箱",
+                    "description":""
+                },
+                "content_6":{
+                    "name":"姓名",
+                    "description":""
+                }
+            },
+            "class_2": {
+                "name":"培训相关",
+                "description":"",
+                "classes":0,
+                "level":3
+            },
+            "class_3":{
+                "name":"物资相关",
+                "description":"入库、出库、盘点、",
+                "classes":0,
+                "level":3
+            },
+            "class_4":{
+                "name":"后勤相关",
+                "description":"",
+                "classes":0,
+                "level":3
+            },
+            "class_5":{
+                "name":"财务相关",
+                "description":"",
+                "classes":0,
+                "level":3
+            },
+            "class_6":{
+                "name":"人力资源相关",
+                "description":"",
+                "classes":0,
+                "level":3
+            },
+            "class_7":{
+                "name":"科室信息",
+                "description":"",
+                "classes":1,
+                "level":1
+            },
+            "class_8":{
+                "name":"医院信息",
+                "description":"",
+                "level":1,
+                "classes":1,
+                "content_0":{
+                    "name":"医院名称",
+                    "description":""
+                },
+                "content_1":{
+                    "name":"医院总床位数",
+                    "description":""
+                }
+            },
+            "class_9":{
+                "name":"医学词汇",
+                "description":"",
+                "classes":1,
+                "level":1
+            }
+        },
+        "blclass_3": {
+            "name": "医疗资金和支付数据",
+            "description": "",
+            "class_0": {
+                "name":"医疗交易信息",
+                "description":"费用、结算",
+                "level":3
+            },
+            "class_1": {
+                "name":"保险信息",
+                "description":"",
+                "level":4
+            }
+        },
+        "blclass_4": {
+            "name": "个人健康数据",
+            "description": "",
+            "class_0": {
+                "name":"病史信息",
+                "description":"",
+                "level":4
+            },
+            "class_1": {
+                "name":"体检信息",
+                "description":"",
+                "level":4
+            }
+        }
+    }
+}    

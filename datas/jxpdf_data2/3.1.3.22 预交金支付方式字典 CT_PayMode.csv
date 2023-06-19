@@ -1,0 +1,5 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,CTPM_Code,,RowId,
+2,-2,CTPM_Desc,,Text,"Yes,No"
+3,-3,CTPM_NotUseFlag,,Text,",CH,CC,CQ,DP
+,Cash||CH,Card|| CC,Cheque || CQ,DirectPayment|| DP"

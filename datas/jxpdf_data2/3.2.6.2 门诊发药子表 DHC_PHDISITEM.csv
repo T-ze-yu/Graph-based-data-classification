@@ -1,0 +1,8 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHDI_PHD_PARREF,,,
+2,-2,PHDI_ROWID,,,
+3,-3,PHDI_CHILDSUB,,,
+4,-4,PHDI_PAPMI_DR,,,
+5,-5,PHDI_INCLB_DR,,,
+6,-6,PHDI_QTY,,,
+7,-7,PHDI_PAYAMOUNT,,,

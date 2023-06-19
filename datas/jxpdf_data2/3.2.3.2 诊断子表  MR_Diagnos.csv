@@ -1,0 +1,10 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,MRDIA_RowId,,RowId,
+2,-2,MRDIA_MRADM_ParRef,诊断主表ＩＤ,DR,指向 MR_Adm
+3,-3,MRDIA_Childsub,字表 ID,,
+4,-4,MRDIA_ICDCode_DR,诊断ＩＣＤ码表,ＤＲ,指向 MRC_ICDDx
+5,-5,MRDIA_DocCode_DR,下诊断医师,ＤＲ,指向 CT_CareProv
+6,-6,MRDIA_Date,下诊断日期,Date,
+7,-7,MRDIA_Time,下诊断时间,Date,
+8,-8,MRDIA_DiagStat_DR,诊断状态,DR,"指向
+MRC_DiagnosStatus"

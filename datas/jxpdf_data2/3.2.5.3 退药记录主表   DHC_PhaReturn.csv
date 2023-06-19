@@ -1,0 +1,9 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PHAR_Date,退药时间,RowID,
+2,-2,PHAR_Time,退药时间,,
+3,-3,"PHAR_SSUSR_DR PHAR_RETRQ_DR
+PHAR_RecLoc_DR
+PHAR_DeptLoc_DR PHAR_RetNo PHAR_AckStatus PHAR_AckDate PHAR_AckTime PHAR_AckUser","退药人就诊号 退药科室
+申请退药科室
+退药单号退药单号",Dr,"dhc_phloc
+如果是病区退药，存病区科室，如果是特殊科室退药，存医生科室"

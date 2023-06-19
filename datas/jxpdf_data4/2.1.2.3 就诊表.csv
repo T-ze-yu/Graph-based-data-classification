@@ -1,0 +1,3 @@
+,序号,表名称,类名称,业务名称,存储
+1,1,PA_Adm,User. PAAdm,就诊表,
+2,4,PAC_AdmTypeLocation,,访问类型位置,"^PAC(""ADMLO"

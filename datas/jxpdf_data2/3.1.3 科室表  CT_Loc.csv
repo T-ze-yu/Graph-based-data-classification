@@ -1,0 +1,105 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,CTLOC_RowID,,RowId,
+2,-2,CTLOC_Code,代码,Text,
+3,-3,CTLOC_Desc,描述,Text,
+4,4,CTLOC_GLCCC_DR,成本中心,DR,指向成本中心表 GLC_CC
+5,5,CTLOC_Password,,Text,
+6,-6,CTLOC_WardFlag,是否为病区,Y/N,
+7,7,CTLOC_Address,地址,Text,
+8,8,CTLOC_ActiveFlag,,Y/N,
+9,9,CTLOC_Cashier_DR,,DR,指向科室表 CT_Loc
+10,10,CTLOC_OTC_DR,,DR,指向科室表 CT_Loc
+11,11,CTLOC_StartTime,,Time,
+12,12,CTLOC_EndTime,,Time,
+13,13,CTLOC_OwnQueFlag,,Y/N,
+14,14,CTLOC_RecQueFlag,,Y/N,
+15,-15,CTLOC_Type,科室类型,Mul C,"W||Ward,,E||Execute, DI||Drug
+Injection, D||Dispensing, C||Cashier,O||Other， OP||Operating Theatre, EM||Emergency,    DS||Day Surgery,MR||Medical Records, OR||OutPatient Consulting Room, CL||Clinic,ADM||Admission Point"
+16,16,CTLOC_DispLoc_DR,,DR,指向科室表 CT_Loc
+17,17,CTLOC_Floor,科室地面,Text,
+18,18,CTLOC_NFMI_DR,,DR,"指向政府部门表
+CT_NFMI_CategDepart"
+19,19,CTLOC_Laundry,,Y/N,
+20,20,CTLOC_Dep_DR,部门组,DR,"指向科室部门组表
+RBC_DepartmentGroup"
+21,21,CTLOC_DifferentSexPatients,Single Sex Ward,Mul C,"D||Does Not Matter, W||Warning,              N||Not
+Allowed"
+22,22,CTLOC_Index,,Y/N,
+23,23,CTLOC_Hospital_DR,医院,DR,指向医院表 CT_Hospital
+24,24,CTLOC_ExecuteConfirmation,,Y/N,
+25,25,CTLOC_DateActiveFrom,生效日期,Date,
+26,26,CTLOC_DateActiveTo,截止日期,Date,
+27,27,CTLOC_RehabilitativeFlag,复原标志,Y/N,
+28,28,CTLOC_MedicalRecordActive,"在此科室病历
+可用",Y/N,
+29,29,CTLOC_DefaultMRType_DR,,DR,"指向病案类型表
+RTC_MRecordType"
+30,30,CTLOC_ResultDelivery,收集,Y/N,
+31,31,CTLOC_RespUnit_DR,"Responsible
+Unit",DR,指向表  CT_ResponsibleUnit
+32,32,CTLOC_PatientAgeSexMix_DR,,DR,"指向表
+PAC_PatientAgeSexMix"
+33,33,CTLOC_IntendClinCareIntensity_DR,,DR,"指向表
+PAC_IntendClinCareIntens"
+34,34,CTLOC_BroadPatientGroup_DR,,DR,"指向表
+PAC_BroadPatientGroup"
+35,35,CTLOC_WeeklyAvailIndicator,"Weekly
+Availability",Y/N,
+36,36,CTLOC_OpenOvernightIndicator,"Open
+Overnight",Y/N,
+37,37,CTLOC_SignifFacility_DR,,DR,指向表 CT_SignificantFacility
+38,38,CTLOC_NotUsed,,Text,
+39,39,CTLOC_ExtGroup_DR,,DR,"指向表
+CTLOC_ExtGroup_DR"
+40,40,CTLOC_ExternalInfoSystem,,Mul C,"Kestral,AusLab,Apex,Merlin Rx,Pyxis Rx,Cardiobase,ClinPath,Triple G,Quest Diagnostics,HBCIS Imaging,EBM,Mitra PACS,GE PACS,AGFA
+PACS,LabTrak,Sonic Apollo"
+41,41,CTLOC_Telephone,Telephone,Text,
+42,42,CTLOC_TelephoneExt,Ext.,Text,"地坛医院订餐接口 ，固定 4 位，
+科室 Rowid"
+43,43,CTLOC_HL7OrdersLink,,DR,指向表 SS_HL7
+44,44,CTLOC_ContactName,ContactName,Text,"地坛医院订餐接口 ，科室拼音
+头字母"
+45,45,CTLOC_FloorplanQuery,,Mul C,"E||Emergency,R||Emergency - RIE, B||Emergency B & R"""
+46,46,CTLOC_VisitHrFrom,,"Time Time Time
+Time",
+47,47,CTLOC_VisitHrTo,,,
+48,48,CTLOC_RestPeriodFrom,,,
+49,49,CTLOC_RestPeriodTo,,,
+50,50,CTLOC_AgeFrom,,Number,
+51,51,CTLOC_AgeTo,,Number,
+52,52,CTLOC_NationCode,,Text,
+53,53,CTLOC_OrdersToRecLoc,,Mul C,"P||On patient payment,O||On order entry"
+54,54,CTLOC_SendHL7MessageOn,,Mul C,"OE||Order Entry,SC||Specimen Collection, PA||Patient Arrive,APPT||Appointment & Pt Arrive,APC||Appointments Created,NRA||Non Radiology Appointment,SR||Specimen Receive"
+55,55,CTLOC_DepartmentHeadUserDR,,DR,指向表 SS_User
+56,56,CTLOC_PagerNo,,Text,
+57,57,CTLOC_Email,,Text,
+58,58,CTLOC_Fax,,Text,
+59,59,CTLOC_DaysAutoGenerate,,Number,
+60,60,CTLOC_MRRequestMoveValid,,Y/N,
+61,61,CTLOC_SNAPFlag,,Y/N,
+62,62,CTLOC_MultDateRangesVisitHrs,,Text,
+63,63,CTLOC_MentalHealthUnit,,Y/N,
+64,64,CTLOC_PreferedOutlierWard,,DR,"指向病区表
+CTLOC_PreferedOutlierWard"
+65,65,CTLOC_WardSingleSex,,DR,指向性别表 CT_Sex
+66,66,CTLOC_PrintLabelsUrgMRRequest,,Y/N,
+67,67,CTLOC_EnableDischargeAllHyperlink,,Y/N,
+68,68,CTLOC_InPatientUnit,,Y/N,
+69,69,CTLOC_OutPatientUnit,,Y/N,
+70,70,CTLOC_TimeSinceLastAppt,,Number,
+71,71,CTLOC_Period,,Mul C,"D||Day,M||Month,Y||Year"
+72,72,CTLOC_DischSumNotRequired,,Y/N,
+73,73,CTLOC_NatCodeDateFrom,,Date,
+74,74,CTLOC_NatCodeDateTo,,Date,
+75,75,CTLOC_SignFacilDateFrom,,Date,
+76,76,CTLOC_SignifFacilDateTo,,Date,
+77,77,CTLOC_DischargeLounge,,Y/N,
+78,78,CTLOC_ExternalViewerLink,,Text,
+79,79,CTLOC_DaysToKeepRecord,,Number,
+80,80,CTLOC_NATAHeadings,,Text,
+81,81,CTLOC_WeeksSuspensionReview,,Number,
+82,82,CTLOC_DaysForOPDOffer,,Number,
+83,83,CTLOC_DaysForOPLetterResponse,,Number,
+84,84,CTLOC_OffersBeforeIP_OPWaitReset,,Number,
+85,85,CTLOC_DaysOfferOutcomeChange,,Number,
+86,86,CTLOC_RadOrdAccessNoPrefix,,Text,

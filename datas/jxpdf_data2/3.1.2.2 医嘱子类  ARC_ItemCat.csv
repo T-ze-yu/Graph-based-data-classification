@@ -1,0 +1,37 @@
+,"序
+号",数据项,业务含义,类型,
+1,-1,ARCIC_RowId,,RowID,
+2,-2,ARCIC_Code,代码,Text,
+3,-3,ARCIC_Desc,描述,Text,
+4,4,ARCIC_ExecFlag,,Mul C,"R||Required,N||Not Allowed"
+5,5,ARCIC_DoseType,,Mul C,"O||One,D||Daily,U||Unit"
+6,6,ARCIC_ExecFreq,,Y/N,
+7,7,ARCIC_ExecDose,,Y/N,
+8,-8,ARCIC_OrderType,医嘱类型,Mul C,"R||Drug,D||Diet,I||IV,C||Consultation,N||Normal Supplement,H||Hardware,E||Diet Enteral Feed Meal,PROS||Prosthetics"
+9,-9,ARCIC_OrdCat_DR,医嘱分类,DR,指向表 OEC_OrderCategory
+10,10,ARCIC_ExecCateg_DR,执行类型,DR,指向表 OEC_ExecCateg
+11,11,ARCIC_Template,Template,Text,
+12,12,ARCIC_CalcQtyFlag,计算数量,Y/N,
+13,13,ARCIC_NurseWorkBench,"在护士站
+显示",Y/N,
+14,14,ARCIC_TextResultType_DR,"文本结果
+类型",DR,指向表 OEC_TextResultType
+15,15,ARCIC_DicomResult,,Y/N,
+16,16,ARCIC_OverridePrice,,Y/N,
+17,17,ARCIC_AllowToEnterOneResultOnly,,Y/N,
+18,18,ARCIC_UseODBCforWord,,Y/N,
+19,19,ARCIC_HL7ResultType,,Mul C,"AT||Atomic,IM||Image,AI||Atomic & Image"
+20,20,ARCIC_BillingType,,Mul C,"C||Collection,E||Executable,SR||SpecimenRec"
+21,21,ARCIC_Questionnaire_DR,,DR,指向表 SS_UserDefWindow
+22,22,ARCIC_OnlyShowVerRes,,Y/N,
+23,23,ARCIC_LaboratoryCodes,,Text,
+24,24,ARCIC_RecieveSpecimens,,Y/N,
+25,25,ARCIC_CounterTypeDr,,DR,指向表 PAC_CounterType
+26,26,ARCIC_RestrictedOrder,,Y/N,
+27,27,ARCIC_SecSignForAdm,,Y/N,
+28,28,ARCIC_WarningNonVerResult,,Y/N,
+29,29,ARCIC_UserDefWindow_DR,,DR,指向表 SS_UserDefWindow
+30,30,ARCIC_PrescrExpDays,,Number,
+31,31,ARCIC_PrescrRepeatDays,,Number,
+32,32,ARCIC_IVExpiry,,Number,
+33,33,ARCIC_PhoneOrderReviewTime,,Number,

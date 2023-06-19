@@ -1,0 +1,13 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,SESS_RowId,,RowID,
+2,-2,SESS_Code,代码,Text,
+3,-3,SESS_Desc,描述,Text,
+4,4,SESS_SessionType_DR,,DR,指向 RBC_SessionType
+5,5,SESS_NumberOfDays,天数,Number,
+6,6,SESS_EnableByDefault,默认允许,Y/N,
+7,7,SESS_DateFrom,生效日期,Date,
+8,8,SESS_DateTo,截止日期,Date,
+9,9,SESS_ReleaseDays,,Number,
+10,10,SESS_ConvertPeriod,,Number,mins
+11,11,SESS_GenFrequency,,Number,"D||Day,M||Month,W||Week,Y||Year"
+12,12,SESS_GenPeriod,,Mul C,

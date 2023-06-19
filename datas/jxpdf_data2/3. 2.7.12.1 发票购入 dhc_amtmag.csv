@@ -1,0 +1,10 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,Rcpt_date,发放日期,RowId,
+2,-2,Rcpt_time,发放时间,Text,
+3,-3,Rcpt_startno,开始号码,Text,
+4,-4,"Rcpt_endno
+Rcpt_user","结束号码
+发放人",String,
+5,,Rcpt_loc,部门,,
+6,,Rcpt_currentno,当前可使用的号码,,
+7,,Rcpt_useflag,可用标志，1：可用；2：,,

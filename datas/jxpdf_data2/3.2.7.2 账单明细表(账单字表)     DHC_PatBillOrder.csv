@@ -1,0 +1,12 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PBO_ARCIM_DR,医嘱项指针 ARC_ItmMast,,
+2,-2,PBO_OEORI_DR,病人医嘱指针 OE_OrdItem,,
+3,-3,PBO_UnitPrice,医嘱单价,,
+4,-4,PBO_BillQty,总计费数量,,
+5,-5,PBO_RefundQty,退费数量,,
+6,-6,PBO_ TotalAmount,病人医嘱总费用,,
+7,-7,PBO_ DiscAmount,折扣部分,,
+8,-8,PBO_ PayorShare,病人记账部分,,
+9,-9,PBO_ PatientShare,病人自费部分,,
+10,-10,PBO_OrderDate,下医嘱日期,,
+11,-11,PBO_OrderTime,下医嘱时间,,

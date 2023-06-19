@@ -1,0 +1,28 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,PB_Adm_DR,病人本次住院的 ADM.,,
+2,-2,PB_AdmDate,病人入院日期,,
+3,-3,PB_DisChargeDate,病人出院日期,,
+4,-4,PB_PatInsType_DR,计费时病人的保险分类.,,
+5,-5,PB_PatAdmType_DR,计费时病人的入院分类,,
+6,-6,PB_DateFrom,本次计费的日期范围,,
+7,-7,PB_DateTo,本次计费的日期范围,,
+8,-8,PB_TotalAmount,本次计费的总额,,
+9,-9,PB_DiscAmount,本次计费的折扣额,,
+10,-10,PB_DiscType,"折扣类型(内部类型: 病人折
+扣,项目折扣)",,
+11,-11,PB_PayorShare,本次费用记账额,,
+12,-12,PB_PatientShare,本次费用病人自付额,,
+13,-13,PB_AmountPaid,病人支付额,,
+14,-14,PB_AmounttoPay,病人应当支付额,,
+15,-15,PB_BillType,"本次计费类型(门诊,住院,体检,
+急诊)",,
+16,-16,PB_PayedFlag,"计费状态(Paid,Bill)",,
+17,-17,PB_UpdateDate,计费日期,,
+18,-18,PB_UpdateTime,计费时间,,
+19,-19,PB_UpdateUser,计费员,,
+20,-20,PB_RefundFlag,红冲标志,,
+21,-21,PB_OriginalBill_DR,原单号（在结账后发生红冲时）,,
+22,-22,PB_PatAdmType_DR,病人类型,DR,"指向：
+PAC_EpisodeSubType
+表：6：普通病人
+7：绿色通道病人"

@@ -1,0 +1,10 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,OLT_RowId,医嘱费用关联表,RowId,
+2,-2,OLT_ARCIM_DR,"医    嘱    指    针
+ARC_ItmMast",Text,
+3,-3,OLT_Tariff_DR,"费  用  项  目  指  针
+DHC_TarItem",Text,
+4,-4,OLT_Qty,计费数量,String,
+5,,OLT_StartDate,关联有效日期,,
+6,,OLT_EndDate,关联有效日期,,
+7,,OLT_Inst_DR,医  嘱  用  法  指  针,,

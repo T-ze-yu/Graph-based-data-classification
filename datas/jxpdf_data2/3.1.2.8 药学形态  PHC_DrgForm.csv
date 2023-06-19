@@ -1,0 +1,61 @@
+,"序
+号",数据项,业务含义,类型,备注
+1,-1,PHCC_RowID,,Row ID,
+2,-2,PHCC_Code,代码,String,MAXLEN = 15
+3,-3,PHCC_Desc,描述,String,MAXLEN=220
+4,-4,PHCDF_PHCD_ParRef,"药学项主表
+RowID",DR,PHC_DrgMast
+5,-5,PHCDF_PHCF_DR,剂型,DR,PHC_Form
+6,-6,PHCDF_PHCP_DR,,"Reference to
+PHCPer",Property
+7,-7,PHCDF_PHCS_DR,"Des Ref to PHCS
+(Strength)","Reference to
+PHCStrength",Property
+8,-8,PHCDF_PHCPA_DR,"Des Ref to PHCPA
+(Packing)",Reference to PHCPack,property
+9,9,PHCDF_Price1,"Price 1 - MIMS
+(info)",%float,
+10,10,PHCDF_Price2,Price 2,%float,
+11,11,PHCDF_ChildSub,New Key,%float,
+12,-12,PHCDF_PHCFR_DR,"Des Ref to PHCFR
+(Frequency)",Reference to PHCFreq,"医嘱执行次数
+（bid 等）"
+13,-13,PHCDF_PHCIN_DR,"Des Ref to PHCIN
+(Instruction)",Reference to PHCInstruc,医嘱用法（口服等）
+14,-14,PHCDF_PHCDO_DR,"Des Ref to
+PHCDO (Dosage)","Reference to
+PHCDosage",管制分类？
+15,15,PHCDF_Indication,"Indication
+(info)",%string,list
+16,16,PHCDF_ContraInd,"Contra
+Indication (info)",%string,list
+17,17,PHCDF_Precaution,"Special
+Precautions (info)",%string,list
+18,18,PHCDF_AdvReaction,"Adverse
+Reaction (info)",%string,List，不良反应
+19,19,PHCDF_MIMSno,MIMS number,%string,
+20,20,PHCDF_PHCDU_DR,"Des Ref to PHCDU
+(Duartion)",Reference to PHCDuration,疗程
+21,21,PHCDF_ATCBin,ATC Bin,%string,
+22,22,PHCDF_CTUOM_DR,,"Reference to
+CTUOM",基本单位
+23,23,PHCDF_BaseQty,,%float,基本数量
+24,24,PHCDF_DeductPartially,"Deduct
+Partially",%string,"Y,N"
+25,25,PHCDF_UpdateDate,Update date,%date,
+26,26,PHCDF_UpdateTime,Update time,%time,
+27,27,PHCDF_UpdateUser,Update user,Reference to SSUser,
+28,28,PHCDF_InPatDuration_DR,,"Reference to
+PHCDuration",
+29,29,PHCDF_OfficialCode,Official cole,%string,医保类别
+30,30,PHCDF_MaxNumberRepeats,"Max Number of
+Repeats",%float,
+31,31,PHCDF_Interaction,Interaction,%string,list
+32,32,PHCDF_Warning,warning,%string,list
+33,33,PHCDF_DateFrom,Date from,%date,
+34,34,PHCDF_DateTo,Date to,%date,
+35,35,PHCDF_GenRtForm_DR,,Reference to PHCGenericRtForms,
+36,36,PHCDF_Route_DR,,"Reference to
+OECRoute",
+37,37,PHCDF_Formulary,Formulary,%string,"Y,N"
+38,38,PHCDF_Preferred,Preferred,%string,"Y,N"

@@ -1,0 +1,17 @@
+,序号,数据项,"数据项名称（业务含
+义）",类型,长度,可否为空,"缺省
+值",备注说明
+1,1,AccM_AccountNo,帐户号,Text,16,YYYYMM DD+0000,,"为了与
+RowID 分开，把此帐户号 等同于预缴
+金的流水号。"
+2,2,AccM_PAPMI_DR,登记号 RowID,DR,,,,"指向
+Pa_PatMas 表"
+3,3,AccM_PAPMINo,登记号,Text,12,,,
+4,4,AccM_CardNo,卡号,Text,30,,,"此卡号与
+CardManager
+中的 CardNo
+一致"
+5,5,AccM_OCDate,开户日期,Date,,,,
+6,6,AccM_OCTime,开户时间,Time,,,,
+7,7,AccM_Cuser_DR,开户人员,DR,,,,"指向 SS_User
+表"

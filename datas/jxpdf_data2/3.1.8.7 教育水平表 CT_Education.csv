@@ -1,0 +1,4 @@
+,序号,数据项,业务含义,类型,备注
+1,1,EDU_RowId,标识号,,Row ID
+2,2,EDU_Code,教育水平代码,,Text
+3,3,EDU_Desc,教育水平描述,,Text

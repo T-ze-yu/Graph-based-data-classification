@@ -1,0 +1,6 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,TEP_EST_DR,"病  人  就  诊  类  别
+PAC_EpisodeSubType",RowId,
+2,-2,TEP_PriceList,标准价格,Text,
+3,-3,TEP_StartDate,"标准价格执行日期
+标准价格执行日期",Text,

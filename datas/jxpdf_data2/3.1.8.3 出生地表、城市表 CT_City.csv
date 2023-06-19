@@ -1,0 +1,7 @@
+,序号,数据项,,业务含义,类型,,备注,
+1,,CTCIT_Code,城市代码,,,Text,,6
+2,,CTCIT_Desc,城市描述,,,Text,,20
+3,,CTCIT_FiscalPrefix,前缀,,,Text,,30
+4,,CTCIT_Province_DR,"指 向 所 在 省 市 表
+CT_Province 的 Row ID",,,DR,,16
+5,,CTCIT_RowId,标识号,,,Row ID,,16

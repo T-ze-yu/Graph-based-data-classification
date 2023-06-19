@@ -1,0 +1,5 @@
+,序号,数据项,业务含义,类型,备注
+1,-1,MRCID_RowId,,RowId,
+2,-2,MRCID_Code,代码,Text,
+3,-3,MRCID_Desc,描述,Text,
+4,-4,MRCID_ICD9CM_Code,ICD9 码,Text,

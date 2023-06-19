@@ -1,0 +1,29 @@
+,序号,数据项,"数据项名称（业务
+含义）",类型,长度,可否为空,缺省值,备注说明
+1,1,AccPD_ParRef,,DR,,,,"父表
+DHC_Acc Manager"
+2,2,AccPD_RowID,,Row ID,,,,
+3,3,AccPD_Sub,,,,,,
+4,-5,AccPD_AccountNo,帐户号(预缴金编号),,,,,(考虑不加在表中)
+5,4,AccPD_Type,缴款类型,Multi,3,,,"Pay||P 缴款
+Refund||R
+退费
+Trans||T 转帐
+Foot||F 结算帐户的缴退款"
+6,-7,AccPD_Mode,缴款方式(用子表,Number,-3,,,1 现金
+7,,,表示),,,,,"2 支票
+3 银行卡
+4"
+8,5,AccPD_PreSum,缴款额度,Number,,,,
+9,6,AccPD_PreDate,缴款日期,Date,,,,
+10,7,AccPD_PreTime,缴款时间,Time,,,,
+11,8,AccPD_User_DR,收款人员,DR,,,,
+12,9,AccPD_BillNum,票据号,Text,,,,
+13,10,AccPD_PDFoot_DR,结算时间外键,DR,,,,DHC_Acc PFoot
+14,11,AccPD_Left,帐户余额,Number,,,,
+15,12,AccPD_BackReason,退款原因；,Text,100,,,
+16,13,AccPD_Note1,,,,,,
+17,14,AccPD_Note2,,,,,,
+18,15,AccPD_Note3,,,,,,
+19,16,AccPD_Note4,,,,,,
+20,17,AccPD_Note5,,,,,,

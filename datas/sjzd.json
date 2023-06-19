@@ -1,0 +1,1922 @@
+{
+    "library_0": {
+        "name": "\u9f13\u697c\u533b\u9662",
+        "description": "\u9f13\u697c\u533b\u9662\u6570\u636e\u5b57\u5178",
+        "table_0": {
+            "name": "AntiApproval1",
+            "description": "\u6297\u83cc\u836f\u7269\u7279\u6279\u8868",
+            "field_0": {
+                "name": "Idm",
+                "description": "\u6297\u83cc\u836f\u7269\u4ee3\u7801"
+            },
+            "field_1": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_2": {
+                "name": "StaffId",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            },
+            "field_3": {
+                "name": "DeptKind",
+                "description": "\u79d1\u5ba4\u6807\u5fd7\uff08\uff1a\u4e34\u5e8a1\uff1a\u95e8\u529e:\u533b\u52a1\u5904\uff09"
+            },
+            "field_4": {
+                "name": "NoticefieldFlag",
+                "description": "\u77ed\u4fe1\u901a\u77e5\u6807\u8bc6"
+            }
+        },
+        "table_1": {
+            "name": "AntiDeptSetting",
+            "description": "\u6297\u83cc\u836f\u7269\u79d1\u5ba4\u8bbe\u7f6e",
+            "field_5": {
+                "name": "DpetId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_6": {
+                "name": "Idm",
+                "description": "\u6297\u83cc\u836f\u7269\u4ee3\u7801"
+            }
+        },
+        "table_2": {
+            "name": "AntiDoctorLevelSetting",
+            "description": "\u6297\u83cc\u836f\u7269\u533b\u751f\u7ea7\u522b\u8bbe\u7f6e",
+            "field_7": {
+                "name": "AntiLevel",
+                "description": "\u6297\u751f\u7d20\u836f\u54c1\u5206\u7ea7"
+            },
+            "field_8": {
+                "name": "LowestApprovalDoctorLevel",
+                "description": "\u5141\u8bb8\u5ba1\u6279\u6216\u8005\u7279\u6279\u8be5\u5206\u7c7b\u6297\u751f\u7d20\u7684\u6700\u4f4e\u533b\u751f\u7ea7\u522b"
+            }
+        },
+        "table_3": {
+            "name": "AntiDoctorSetting",
+            "description": "\u6297\u83cc\u836f\u7269\u533b\u751f\u8bbe\u7f6e",
+            "field_9": {
+                "name": "DeptID",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_10": {
+                "name": "DoctorTitle",
+                "description": "\u804c\u79f0\u4ee3\u7801"
+            },
+            "field_11": {
+                "name": "DoctorID",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            },
+            "field_12": {
+                "name": "Idm",
+                "description": "\u6297\u83cc\u836f\u7269\u533b\u751f\u8bbe\u7f6e"
+            }
+        },
+        "table_4": {
+            "name": "AntiDoctorTitleSetting",
+            "description": "\u6297\u83cc\u836f\u7269\u804c\u79f0\u8bbe\u7f6e",
+            "field_13": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_14": {
+                "name": "DoctorTitle",
+                "description": "\u804c\u79f0\u4ee3\u7801"
+            },
+            "field_15": {
+                "name": "Idm",
+                "description": "\u6297\u83cc\u836f\u7269\u804c\u79f0\u8bbe\u7f6e"
+            }
+        },
+        "table_5": {
+            "name": "ApproveResultForAnti",
+            "description": "\u6297\u83cc\u836f\u7269\u4f1a\u8bca\u5ba1\u6279\u7ed3\u679c\u8bb0\u5f55",
+            "field_16": {
+                "name": "AntiSysFlag",
+                "description": "\u7cfb\u7edf\u6807\u5fd7"
+            },
+            "field_17": {
+                "name": "UsableFlag",
+                "description": "\u5ba1\u6279\u89c4\u5219"
+            },
+            "field_18": {
+                "name": "PrimaryId",
+                "description": "\u9057\u5631\u6216\u662f\u5904\u65b9\u5e8f\u53f7"
+            },
+            "field_19": {
+                "name": "DataID",
+                "description": "\u533b\u5631\u6216\u662f\u5904\u65b9\u7684\u660e\u7ec6\u5e8f\u53f7"
+            },
+            "field_20": {
+                "name": "CreateStaffId",
+                "description": "\u521b\u5efa\u4eba\u5de5\u53f7"
+            },
+            "field_21": {
+                "name": "ReciveStaffID",
+                "description": "\u63a5\u6536\u4eba\u5de5\u53f7"
+            },
+            "field_22": {
+                "name": "ReplyMessage",
+                "description": "\u56de\u590d\u5185\u5bb9"
+            }
+        },
+        "table_6": {
+            "name": "ExpertGroupSetting",
+            "description": "\u4e13\u5bb6\u7ec4\u914d\u7f6e",
+            "field_23": {
+                "name": "StaffID",
+                "description": "\u4eba\u5458\u4ee3\u7801"
+            },
+            "field_24": {
+                "name": "DoctorLevel",
+                "description": "\u533b\u751f\u7ea7\u522b"
+            },
+            "field_25": {
+                "name": "GroupKindFlag",
+                "description": "\u5206\u7c7b"
+            }
+        },
+        "table_7": {
+            "name": "ABOBloodType",
+            "description": "ABO\u8840\u578b\u8868",
+            "field_26": {
+                "name": "ID",
+                "description": "\u4ee3\u7801"
+            },
+            "field_27": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            }
+        },
+        "table_8": {
+            "name": "AccoutItem",
+            "description": "\u8d22\u52a1\u5927\u9879\u76ee",
+            "field_28": {
+                "name": "name",
+                "description": "\u540d\u79f0"
+            },
+            "field_29": {
+                "name": "OpInvoiceAccItemID",
+                "description": "\u95e8\u8bca\u53d1\u7968\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_30": {
+                "name": "IpInvoiceAccItemID",
+                "description": "\u4f4f\u9662\u53d1\u7968\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_31": {
+                "name": "OPYBAccItem",
+                "description": "\u95e8\u8bca\u533b\u4fdd\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_32": {
+                "name": "IPYBAccItem",
+                "description": "\u4f4f\u9662\u533b\u4fdd\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_33": {
+                "name": "OPAccItem",
+                "description": "\u95e8\u8bca\u4f1a\u8ba1\u9879\u76ee"
+            },
+            "field_34": {
+                "name": "IPAccItem",
+                "description": "\u4f4f\u9662\u4f1a\u8ba1\u9879\u76ee"
+            },
+            "field_35": {
+                "name": "EMRAccItem",
+                "description": "\u75c5\u6848\u9879\u76ee"
+            }
+        },
+        "table_9": {
+            "name": "ALLergyResult",
+            "description": "\u836f\u654f\u7ed3\u679c\u8868",
+            "field_36": {
+                "name": "HospitalID",
+                "description": "\u533b\u7597\u673a\u6784\u4ee3\u7801"
+            },
+            "field_37": {
+                "name": "ReportXh",
+                "description": "\u68c0\u9a8c\u62a5\u544a\u5355\u53f7"
+            },
+            "field_38": {
+                "name": "BacteriaID",
+                "description": "\u7ec6\u83cc\u4ee3\u53f7"
+            },
+            "field_39": {
+                "name": "AllergyID",
+                "description": "\u836f\u654f\u4ee3\u7801"
+            },
+            "field_40": {
+                "name": "AllergyName",
+                "description": "\u836f\u654f\u540d\u79f0"
+            },
+            "field_41": {
+                "name": "ExamResult",
+                "description": "\u68c0\u6d4b\u7ed3\u679c"
+            },
+            "field_42": {
+                "name": "PaperPastil",
+                "description": "\u7eb8\u7247\u542b\u836f\u91cf"
+            },
+            "field_43": {
+                "name": "SecretLevel",
+                "description": "\u5bc6\u7ea7"
+            }
+        },
+        "table_10": {
+            "name": "Anaesthesia",
+            "description": "\u9ebb\u9189\u4ee3\u7801",
+            "field_44": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            },
+            "field_45": {
+                "name": "ID ",
+                "description": "\u4ee3\u7801"
+            },
+            "field_46": {
+                "name": "AnaesthesiaKind",
+                "description": "\u9ebb\u9189\u65b9\u5f0f\u6807\u5fd7"
+            }
+        },
+        "table_11": {
+            "name": "AuditPhysician",
+            "description": "\u5ba1\u65b9\u533b\u751f\u8868",
+            "field_47": {
+                "name": "StaffId",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            },
+            "field_48": {
+                "name": "AuditStaffId",
+                "description": "\u4e0a\u7ea7\u5ba1\u65b9\u533b\u751f\u4ee3\u7801"
+            }
+        },
+        "table_12": {
+            "name": "BacteriaResult",
+            "description": "\u7ec6\u83cc\u7ed3\u679c\u8868",
+            "field_49": {
+                "name": "HospitalID",
+                "description": "\u533b\u7597\u673a\u6784\u4ee3\u7801"
+            },
+            "field_50": {
+                "name": "ReportDate",
+                "description": "\u68c0\u9a8c\u62a5\u544a\u5355\u53f7"
+            },
+            "field_51": {
+                "name": "BacterialID",
+                "description": "\u7ec6\u83cc\u4ee3\u53f7"
+            },
+            "field_52": {
+                "name": "BacteriaName",
+                "description": "\u7ec6\u83cc\u540d\u79f0"
+            },
+            "field_53": {
+                "name": "CoIonyCount",
+                "description": "\u83cc\u843d\u8ba1\u6570"
+            },
+            "field_54": {
+                "name": "ExamResult",
+                "description": "\u68c0\u6d4b\u7ed3\u679c"
+            },
+            "field_55": {
+                "name": "SecretLevel",
+                "description": "\u5bc6\u7ea7"
+            }
+        },
+        "table_13": {
+            "name": "BarcodeConfig",
+            "description": "\u7edf\u4e00\u6761\u7801\u8bbe\u7f6e\u8868",
+            "field_56": {
+                "name": "Name",
+                "description": "\u4e1a\u52a1\u540d\u79f0"
+            },
+            "field_57": {
+                "name": "Id",
+                "description": "\u4e1a\u52a1\u4ee3\u7801"
+            },
+            "field_58": {
+                "name": "KeyField",
+                "description": "\u5173\u952e\u4fe1\u606f"
+            }
+        },
+        "table_14": {
+            "name": "BaseDataModifyLog",
+            "description": "\u57fa\u7840\u6570\u636e\u4fee\u6539\u5386\u53f2",
+            "field_59": {
+                "name": "KeyValues",
+                "description": "\u952e\u6570\u636e"
+            },
+            "field_60": {
+                "name": "HashObjectID",
+                "description": "Hash\u5bf9\u8c61ID"
+            },
+            "field_61": {
+                "name": "SignCertID",
+                "description": "\u7b7e\u540d\u8bc1\u4e66Id"
+            }
+        },
+        "table_15": {
+            "name": "BasicSettingGroup",
+            "description": "\u57fa\u7840\u6570\u636e\u8bbe\u7f6e\u5206\u7ec4",
+            "field_62": {
+                "name": "Name",
+                "description": "\u7ec4\u540d\u79f0"
+            },
+            "field_63": {
+                "name": "Enale",
+                "description": "\u6709\u6548\u6807\u5fd7"
+            },
+            "field_64": {
+                "name": "Visible",
+                "description": "\u53ef\u89c1\u6807\u5fd7"
+            }
+        },
+        "table_16": {
+            "name": "BasicSettingItems",
+            "description": "\u57fa\u7840\u6570\u636e\u8bbe\u7f6e\u4ee3\u7801\u5e93",
+            "field_65": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            },
+            "field_66": {
+                "name": "EntityName",
+                "description": "\u5b9e\u4f53\u540d\u79f0"
+            }
+        },
+        "table_17": {
+            "name": "BedFixedItem",
+            "description": "\u4f4f\u9662\u5e8a\u4f4d\u56fa\u5b9a\u6536\u8d39\u9879\u76ee",
+            "field_67": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_68": {
+                "name": "Quantity",
+                "description": "\u6570\u91cf"
+            },
+            "field_69": {
+                "name": "BedKind",
+                "description": "\u5e8a\u4f4d\u7c7b\u522b"
+            }
+        },
+        "table_18": {
+            "name": "BedKindData",
+            "description": "\u5e8a\u4f4d\u7c7b\u522b\u8d39\u7528\u660e\u7ec6",
+            "field_70": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_71": {
+                "name": "Quantity",
+                "description": "\u6570\u91cf"
+            }
+        },
+        "table_19": {
+            "name": "BloodComponent",
+            "description": "\u8840\u6db2\u6210\u5206\u8868",
+            "field_72": {
+                "name": "BLDId",
+                "description": "\u5bf9\u5e94\u8840\u5e93\u7684\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_73": {
+                "name": "BLDName",
+                "description": "\u8840\u5e93\u7684\u9879\u76ee\u540d\u79f0"
+            },
+            "field_74": {
+                "name": "unit",
+                "description": "\u5355\u4f4d"
+            }
+        },
+        "table_20": {
+            "name": "BloodComponentData",
+            "description": "\u8840\u6db2\u6210\u5206\u8868\u8d39\u7528\u660e\u7ec6",
+            "field_75": {
+                "name": "BloodId",
+                "description": "\u8840\u6db2\u6210\u5206\u4ee3\u7801"
+            },
+            "field_76": {
+                "name": "ChargeItemID",
+                "description": "\u6536\u8d39\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_21": {
+            "name": "BloodFeeData",
+            "description": "\u8840\u5e93\u8d39\u7528\u8868",
+            "field_77": {
+                "name": "OrderXh",
+                "description": "\u533b\u5631\u5e8f\u53f7"
+            },
+            "field_78": {
+                "name": "VisitNo",
+                "description": "\u5c31\u8bca\u5e8f\u53f7"
+            },
+            "field_79": {
+                "name": "ItemID",
+                "description": "\u6536\u8d39\u4ee3\u7801"
+            },
+            "field_80": {
+                "name": "Quantity",
+                "description": "\u6570\u91cf"
+            },
+            "field_81": {
+                "name": "ExecStaffID",
+                "description": "\u6267\u884c\u64cd\u4f5c\u5458"
+            },
+            "field_82": {
+                "name": "ExecDeptID",
+                "description": "\u6267\u884c\u79d1\u5ba4"
+            }
+        },
+        "table_22": {
+            "name": "BookingTImeSlot",
+            "description": "\u9884\u7ea6\u65f6\u95f4\u6bb5\u5b9a\u4e49",
+            "field_83": {
+                "name": "FromTime",
+                "description": "\u5f00\u59cb\u65f6\u95f4"
+            },
+            "field_84": {
+                "name": "SysFlog",
+                "description": "\u7cfb\u7edf\u6807\u5fd7"
+            }
+        },
+        "table_23": {
+            "name": "ChargeDept",
+            "description": "\u6536\u8d39\u79d1\u5ba4\u5e93",
+            "field_85": {
+                "name": "DeptID",
+                "description": "\u6536\u8d39\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_86": {
+                "name": "DeptName",
+                "description": "\u6536\u8d39\u79d1\u5ba4\u540d\u79f0"
+            }
+        },
+        "table_24": {
+            "name": "ChargeDeptPharmacyForIp",
+            "description": "\u6536\u8d39\u836f\u65b9\u8bbe\u7f6e\u4f4f\u9662\u79d1\u5ba4",
+            "field_87": {
+                "name": "SolutionId",
+                "description": "\u89e3\u51b3\u65b9\u6848\u4ee3\u7801"
+            },
+            "field_88": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            }
+        },
+        "table_25": {
+            "name": "ChargeItem",
+            "description": "\u6536\u8d39\u9879\u76ee\u8868",
+            "field_89": {
+                "name": "Id",
+                "description": "\u6536\u8d39\u9879\u76ee\u8ba1\u7b97\u673a\u7f16\u7801"
+            },
+            "field_90": {
+                "name": "Spec",
+                "description": "\u9879\u76ee\u89c4\u683c"
+            },
+            "field_91": {
+                "name": "UnitID",
+                "description": "\u5355\u4f4d\u4ee3\u7801"
+            },
+            "field_92": {
+                "name": "Price",
+                "description": "\u5355\u4ef7"
+            },
+            "field_93": {
+                "name": "AccItemId",
+                "description": "\u6536\u8d39\u5927\u9879\u76ee"
+            },
+            "field_94": {
+                "name": "SKAcctemId",
+                "description": "\u7533\u5eb7\u8d22\u52a1\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_95": {
+                "name": "IPartialSelfFlag",
+                "description": "\u4f4f\u9662\u5206\u7c7b\u81ea\u8d1f\u6807\u5fd7"
+            },
+            "field_96": {
+                "name": "EMRAccItemID",
+                "description": "\u75c5\u6848\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_26": {
+            "name": "ChargeItemPriceBill",
+            "description": "\u9879\u76ee\u8c03\u4ef7\u8d26\u5355",
+            "field_97": {
+                "name": "AuditById",
+                "description": "\u5ba1\u6838\u4eba"
+            }
+        },
+        "table_27": {
+            "name": "ChargeItemPriceDate",
+            "description": "\u9879\u76ee\u8c03\u4ef7\u8d26\u5355\u8c03\u4ef7\u660e\u7ec6",
+            "field_98": {
+                "name": "BillXh",
+                "description": "\u8c03\u4ef7\u5e8f\u53f7"
+            },
+            "field_99": {
+                "name": "ItemID",
+                "description": "\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_28": {
+            "name": "ChargePharmacySolution",
+            "description": "\u6536\u8d39\u836f\u623f\u65b9\u6848\u8bbe\u7f6e",
+            "field_100": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            },
+            "field_101": {
+                "name": "SettingFlag",
+                "description": "\u8bbe\u7f6e\u6807\u5fd7"
+            }
+        },
+        "table_29": {
+            "name": "CheckoutDepositDept",
+            "description": "\u79d1\u5ba4\u9884\u4ea4\u91d1\u7ed3\u8d26",
+            "field_102": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4"
+            },
+            "field_103": {
+                "name": "StaffId",
+                "description": "\u7ed3\u8d26\u64cd\u4f5c\u5458"
+            }
+        },
+        "table_30": {
+            "name": "CheckoutDepositInvoice",
+            "description": "\u64cd\u4f5c\u5458\u9884\u4ea4\u91d1\u7ed3\u8d26\u53d1\u7968\u8868",
+            "field_104": {
+                "name": "Prefix",
+                "description": "\u53d1\u7968\u524d\u7f00"
+            },
+            "field_105": {
+                "name": "BeginNo",
+                "description": "\u5f00\u59cb\u53d1\u7968\u53f7"
+            },
+            "field_106": {
+                "name": "EndNo",
+                "description": "\u7ed3\u675f\u53d1\u7968\u53f7"
+            }
+        },
+        "table_31": {
+            "name": "CheckoutDepositMoneyByPayKind",
+            "description": "\u64cd\u4f5c\u5458\u9884\u4ea4\u91d1\u7ed3\u8d26\u652f\u4ed8\u65b9\u5f0f\u6c47\u603b\u8868",
+            "field_107": {
+                "name": "MoneyKindId",
+                "description": "\u91d1\u989d\u7c7b\u578b"
+            },
+            "field_108": {
+                "name": "Money",
+                "description": "\u91d1\u989d"
+            }
+        },
+        "table_32": {
+            "name": "CheckoutDepositOp",
+            "description": "\u64cd\u4f5c\u5458\u9884\u4ea4\u91d1\u7ed3\u8d26",
+            "field_109": {
+                "name": "StaffId",
+                "description": "\u64cd\u4f5c\u5458"
+            },
+            "field_110": {
+                "name": "DeptId",
+                "description": "\u64cd\u4f5c\u5458\u79d1\u5ba4"
+            },
+            "field_111": {
+                "name": "CashMoney",
+                "description": "\u73b0\u91d1\u91d1\u989d"
+            },
+            "field_112": {
+                "name": "ReturnNum",
+                "description": "\u9000\u91d1\u989d"
+            },
+            "field_113": {
+                "name": "POSMoney",
+                "description": "POS\u91d1\u989d"
+            },
+            "field_114": {
+                "name": "ConfirmStaffId",
+                "description": "\u786e\u8ba4\u64cd\u4f5c\u5458"
+            }
+        },
+        "table_33": {
+            "name": "ChineseCD10",
+            "description": "\u4e2d\u533b\u8bca\u65ad\u4ee3\u7801\u8868",
+            "field_115": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            }
+        },
+        "table_34": {
+            "name": "ClinicDept",
+            "description": "\u4e34\u5e8a\u79d1\u5ba4\u4ee3\u7801\u8868",
+            "field_116": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_117": {
+                "name": "BedCount",
+                "description": "\u6838\u5b9a\u5e8a\u4f4d\u6570"
+            },
+            "field_118": {
+                "name": "DepositWarning",
+                "description": "\u9884\u4ea4\u91d1\u62a5\u8b66\u7ebf"
+            },
+            "field_119": {
+                "name": "DepositStopping",
+                "description": "\u9884\u4ea4\u91d1\u505c\u836f\u7ebf"
+            },
+            "field_120": {
+                "name": "ClinicDeptFlag",
+                "description": "\u4e34\u5e8a\u79d1\u5ba4\u6807\u5fd7"
+            }
+        },
+        "table_35": {
+            "name": "ClinicItem",
+            "description": "\u4e34\u5e8a\u9879\u76ee\u5e93",
+            "field_121": {
+                "name": "Name",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u540d\u79f0"
+            },
+            "field_122": {
+                "name": "UnitID",
+                "description": "\u5355\u4f4d\u4ee3\u7801"
+            },
+            "field_123": {
+                "name": "PriceLS",
+                "description": "\u96f6\u552e\u4ef7"
+            },
+            "field_124": {
+                "name": "AccItemId",
+                "description": "\u6240\u5c5e\u7684\u91cd\u5927\u9879\u76ee\u4ee3\u7801"
+            },
+            "field_125": {
+                "name": "OrderBitFlag",
+                "description": "\u533b\u5631BIT\u6807\u5fd7"
+            },
+            "field_126": {
+                "name": "YBControlFlag",
+                "description": "\u533b\u4fdd\u63a7\u5236\u6807\u5fd7"
+            }
+        },
+        "table_36": {
+            "name": "ClinicItemData",
+            "description": "\u4e34\u5e8a\u9879\u76ee\u6e05\u5355\u5e93",
+            "field_127": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u5e8f\u53f7"
+            },
+            "field_128": {
+                "name": "ChargeItemID",
+                "description": "\u6536\u8d39\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_37": {
+            "name": "ClinicItemScopelLimit",
+            "description": "\u4e34\u5e8a\u9879\u76ee\u9650\u5236\u8868",
+            "field_129": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u5e8f\u53f7"
+            },
+            "field_130": {
+                "name": "LimitClinicItemXh",
+                "description": "\u53d7\u9650\u4e34\u5e8a\u9879\u76ee\u9650\u5236"
+            }
+        },
+        "table_38": {
+            "name": "ClinicItemSetting",
+            "description": "\u4e34\u5e8a\u9879\u76ee\u5f00\u5355\u7edf\u8ba1\u8bbe\u7f6e\u8868",
+            "field_131": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u5e8f\u53f7"
+            },
+            "field_132": {
+                "name": "ClinicItemName",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u540d\u79f0"
+            },
+            "field_133": {
+                "name": "BillingRatio",
+                "description": "\u5f00\u5355\u6240\u5360\u6bd4\u4f8b"
+            }
+        },
+        "table_39": {
+            "name": "CommonUsedDrug",
+            "description": "\u5e38\u7528\u836f\u54c1\u540d",
+            "field_134": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_135": {
+                "name": "StaffId",
+                "description": "\u804c\u5de5\u4ee3\u7801"
+            },
+            "field_136": {
+                "name": "Idm",
+                "description": "\u836f\u54c1\u4ee3\u7801"
+            },
+            "field_137": {
+                "name": "ClinicItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u5e8f\u53f7"
+            },
+            "field_138": {
+                "name": "ItemName",
+                "description": "\u836f\u54c1\u6216\u540d\u79f0"
+            }
+        },
+        "table_40": {
+            "name": "ConsultationKind",
+            "description": "\u4f1a\u8bca\u7c7b\u578b\u8868\uff08\u6c14\u7ba1\u63d2\u7ba1\u3001\u62a2\u6551\u4f1a\u8bca\u3001\u6025\u4f1a\u8bca\u3001\u70b9\u540d\u4f1a\u8bca\u3001\u4f4f\u9662\u5927\u4f1a\u8bca\uff09",
+            "field_139": {
+                "name": "ApplyDoctorLevel",
+                "description": "\u5141\u8bb8\u7533\u8bf7\u4f1a\u8bca\u533b\u751f\u7ea7\u522b\u6700\u4f4e"
+            },
+            "field_140": {
+                "name": "ReciveDoctorLevel",
+                "description": "\u5141\u8bb8\u63a5\u53d7\u4f1a\u8bca\u533b\u751f\u7ea7\u522b\u6700\u4f4e"
+            }
+        },
+        "table_41": {
+            "name": "ConsultationKindData",
+            "description": "\u4f1a\u8bca\u7c7b\u578b\u660e\u7ec6\u8868\uff08\u6307\u5b9a\u5404\u79d1\u5ba4\u53c2\u4e0e\u4f1a\u8bca\u7684\u533b\u751f\uff09",
+            "field_141": {
+                "name": "KindId",
+                "description": "\u4f1a\u8bca\u7c7b\u578b\u4ee3\u7801"
+            },
+            "field_142": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_143": {
+                "name": "ReciveDoctorIds",
+                "description": "\u6307\u5b9a\u53c2\u4e0e\u4f1a\u8bca\u533b\u751f\u4ee3\u7801"
+            }
+        },
+        "table_42": {
+            "name": "Country",
+            "description": "\u56fd\u5bb6\u8868",
+            "field_144": {
+                "name": "ID",
+                "description": "\u56fd\u5bb6\u4ee3\u7801"
+            },
+            "field_145": {
+                "name": "Name",
+                "description": "\u56fd\u5bb6\u540d\u79f0"
+            }
+        },
+        "table_43": {
+            "name": "Degree",
+            "description": "\u5b66\u5386\u4ee3\u7801\u8868",
+            "field_146": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            },
+            "field_147": {
+                "name": "ID",
+                "description": "\u4ee3\u7801"
+            }
+        },
+        "table_44": {
+            "name": "Dept",
+            "description": "\u79d1\u5ba4\u4ee3\u7801\u8868\uff08\u5168\u90e8\u79d1\u5ba4\uff09",
+            "field_148": {
+                "name": "ParentId",
+                "description": "\u4e0a\u7ea7\u79d1\u5ba4"
+            },
+            "field_149": {
+                "name": "HospitalID",
+                "description": "\u533b\u9662ID"
+            },
+            "field_150": {
+                "name": "DeptFlag",
+                "description": "\u79d1\u5ba4\u7c7b\u578b"
+            }
+        },
+        "table_45": {
+            "name": "DeptIndicators",
+            "description": "\u79d1\u5ba4\u5747\u6b21\u7ebf\u6307\u8868",
+            "field_151": {
+                "name": "OPVisitCount",
+                "description": "\u95e8\u8bca\u4eba\u6b21"
+            },
+            "field_152": {
+                "name": "IPVisitCount",
+                "description": "\u51fa\u9662\u4eba\u6b21"
+            },
+            "field_153": {
+                "name": "CrowthCoefficient",
+                "description": "\u589e\u957f\u7cfb\u6570"
+            },
+            "field_154": {
+                "name": "IPDrugProportion",
+                "description": "\u4f4f\u9662\u836f\u5360\u6bd4"
+            }
+        },
+        "table_46": {
+            "name": "DeptItemScopeLimit",
+            "description": "\u79d1\u5ba4\u9879\u76ee\u8303\u56f4\u9650\u5b9a",
+            "field_155": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            },
+            "field_156": {
+                "name": "RegId",
+                "description": "\u79d1\u76ee\u540d\u79f0"
+            }
+        },
+        "table_47": {
+            "name": "DeptItemScopeLimitData",
+            "description": "\u79d1\u5ba4\u76ee\u5f55\u8303\u56f4\u9650\u5b9a\u660e\u7ec6\u8868",
+            "field_157": {
+                "name": "Idm",
+                "description": "\u836f\u54c1\u4ee3\u7801"
+            }
+        },
+        "table_48": {
+            "name": "DeptParents",
+            "description": "\u4e8c\u7ea7\u3001\u4e00\u7ea7\u79d1\u5ba4",
+            "field_158": {
+                "name": "DeptLevel",
+                "description": "\u79d1\u5ba4\u7ea7\u522b"
+            },
+            "field_159": {
+                "name": "ParentId",
+                "description": "\u7236\u7ea7\u79d1\u5ba4\u4ee3\u7801"
+            }
+        },
+        "table_49": {
+            "name": "DeptWard",
+            "description": "\u79d1\u5ba4\u75c5\u533a\u5bf9\u5e94\u8868",
+            "field_160": {
+                "name": "WardId",
+                "description": "\u75c5\u533a\u4ee3\u7801"
+            },
+            "field_161": {
+                "name": "WorkstationLoginFlag",
+                "description": "\u5de5\u4f5c\u7ad9\u8eab\u4efd\u8bc6\u522b\u65b9\u5f0f"
+            }
+        },
+        "table_50": {
+            "name": "DiagnoseCategory",
+            "description": "\u8bca\u65ad\u5206\u7c7b\u8868",
+            "field_162": {
+                "name": "Name",
+                "description": "\u5206\u7c7b\u540d\u79f0"
+            },
+            "field_163": {
+                "name": "DiagIds",
+                "description": "\u8bca\u65ad\u4ee3\u7801\u96c6\u5408"
+            }
+        },
+        "table_51": {
+            "name": "DiagnoseFavorite",
+            "description": "\u5e38\u7528\u8bca\u65ad\u8868",
+            "field_164": {
+                "name": "DiagName",
+                "description": "\u8bca\u65ad\u540d\u79f0"
+            },
+            "field_165": {
+                "name": "DiagFlag",
+                "description": "\u8bca\u65ad\u7c7b\u522b"
+            }
+        },
+        "table_52": {
+            "name": "DiseaseCategory",
+            "description": "\u75c5\u79cd\u5206\u7c7b",
+            "field_166": {
+                "name": "ParentId",
+                "description": "\u4e0a\u7ea7\u4ee3\u7801"
+            },
+            "field_167": {
+                "name": "EstimateMoney",
+                "description": "\u4f30\u8ba1\u8d39\u7528\u91d1\u989d"
+            }
+        },
+        "table_53": {
+            "name": "Drug",
+            "description": "\u836f\u54c1",
+            "field_168": {
+                "name": "DrugId",
+                "description": "\u836f\u54c1\u4e34\u5e8a\u4ee3\u7801"
+            },
+            "field_169": {
+                "name": "name",
+                "description": "\u836f\u54c1\u540d"
+            },
+            "field_170": {
+                "name": "Spec",
+                "description": "\u836f\u54c1\u89c4\u683c"
+            },
+            "field_171": {
+                "name": "DrugKindId",
+                "description": "\u836f\u54c1\u7c7b\u578b\u4ee3\u7801"
+            },
+            "field_172": {
+                "name": "ManuName",
+                "description": "\u751f\u4ea7\u4f01\u4e1a\u540d\u79f0"
+            },
+            "field_173": {
+                "name": "PriceLS",
+                "description": "\u96f6\u552e\u4ef7"
+            },
+            "field_174": {
+                "name": "OPUnit",
+                "description": "\u95e8\u8bca\u5355\u4f4d"
+            },
+            "field_175": {
+                "name": "YKunit",
+                "description": "\u836f\u5e93\u5355\u4f4d"
+            },
+            "field_176": {
+                "name": "JHUnit",
+                "description": "\u8fdb\u8d27\u5355\u4f4d"
+            },
+            "field_177": {
+                "name": "SkinTestFlag",
+                "description": "\u76ae\u8bd5\u6807\u5fd7"
+            },
+            "field_178": {
+                "name": "GZGlag",
+                "description": "\u8d35\u91cd\u6807\u5fd7"
+            },
+            "field_179": {
+                "name": "SpecialFlag",
+                "description": "\u7279\u6b8a\u836f\u54c1\u6807\u5fd7"
+            },
+            "field_180": {
+                "name": "ZMLBId",
+                "description": "\u8d26\u76ee\u7c7b\u522b"
+            },
+            "field_181": {
+                "name": "YBControlFlag",
+                "description": "\u533b\u4fdd\u63a7\u5236\u6807\u5fd7"
+            },
+            "field_182": {
+                "name": "DistributorName",
+                "description": "\u4f9b\u8d27\u5546\u540d\u79f0"
+            },
+            "field_183": {
+                "name": "DrugCode",
+                "description": "\u836f\u54c1\u7f16\u7801"
+            },
+            "field_184": {
+                "name": "RefID",
+                "description": "\u836f\u54c1\u91c7\u8d2d\u5e73\u53f0\u5bf9\u5e94\u7801"
+            },
+            "field_185": {
+                "name": "DrugCode1",
+                "description": "\u836f\u54c1\u4ee3\u78011"
+            }
+        },
+        "table_54": {
+            "name": "DrugAlias",
+            "description": "\u836f\u54c1\u522b\u540d\u5b9a\u4e49",
+            "field_186": {
+                "name": "Idm",
+                "description": "\u836f\u54c1\u4ee3\u7801"
+            },
+            "field_187": {
+                "name": "Name",
+                "description": "\u836f\u54c1\u540d\u79f0"
+            }
+        },
+        "table_55": {
+            "name": "DrugAndItemMutexRules",
+            "description": "\u836f\u54c1\u9879\u76ee\u4e92\u65a5\u89c4\u5219\u8bbe\u7f6e",
+            "field_188": {
+                "name": "GroupId",
+                "description": "\u7ec4\u540d\u79f0"
+            },
+            "field_189": {
+                "name": "ItemXh",
+                "description": "\u4e34\u5e8a\u9879\u76ee\u5e8f\u53f7"
+            },
+            "field_190": {
+                "name": "ChargeItemID",
+                "description": "\u6536\u8d39\u9879\u76eeID"
+            },
+            "field_191": {
+                "name": "Idm",
+                "description": "\u836f\u54c1Idm"
+            },
+            "field_192": {
+                "name": "DrugID",
+                "description": "\u836f\u54c1\u4e34\u5e8a\u836f\u54c1\u4ee3\u7801"
+            }
+        },
+        "table_56": {
+            "name": "DrugApprovalDoctor",
+            "description": "\u5ba1\u6279\u5904\u65b9\u7684\u533b\u751f\u8bbe\u7f6e",
+            "field_193": {
+                "name": "DoctorStaffId",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            },
+            "field_194": {
+                "name": "DisableFlag",
+                "description": "\u505c\u7528\u6807\u5fd7"
+            },
+            "field_195": {
+                "name": "RuleFlag",
+                "description": "\u89c4\u5219\u6807\u5fd7"
+            }
+        },
+        "table_57": {
+            "name": "DrugBasic",
+            "description": "\u836f\u54c1\u57fa\u672c\u76ee\u5f55\u5e93",
+            "field_196": {
+                "name": "Id1",
+                "description": "\u9884\u7559\u836f\u54c1\u4ee3\u7801"
+            },
+            "field_197": {
+                "name": "Name",
+                "description": "\u836f\u54c1\u540d\u79f0"
+            },
+            "field_198": {
+                "name": "DrugKindId",
+                "description": "\u836f\u54c1\u4ee3\u7801\u7c7b\u522b"
+            },
+            "field_199": {
+                "name": "DrugFormId",
+                "description": "\u836f\u54c1\u5242\u578b\u4ee3\u7801"
+            }
+        },
+        "table_58": {
+            "name": "DrugBid",
+            "description": "\u62db\u6807  ",
+            "field_200": {
+                "name": "Idm",
+                "description": "\u836f\u54c1\u4ee3\u7801"
+            },
+            "field_201": {
+                "name": "BidPrice",
+                "description": "\u4e2d\u6807\u91c7\u8d2d\u4ef7"
+            },
+            "field_202": {
+                "name": "BidFileXh",
+                "description": "\u5bf9\u5e94\u7684\u62db\u6807\u6587\u4ef6"
+            }
+        },
+        "table_59": {
+            "name": "CheckTemplate",
+            "description": "\u76d8\u70b9\u5355\u6a21\u677f",
+            "field_203": {
+                "name": "WarehouseId",
+                "description": "\u836f\u5e93\u4ee3\u7801"
+            },
+            "field_204": {
+                "name": "TemplateName",
+                "description": "\u6a21\u677f\u540d\u79f0"
+            }
+        },
+        "table_60": {
+            "name": "DeptDrugLedger",
+            "description": "\u836f\u5242\u79d1\u836f\u54c1\u53f0\u8d26",
+            "field_205": {
+                "name": "Idm",
+                "description": "\u836f\u54c1IDM"
+            },
+            "field_206": {
+                "name": "BeginLSMoney",
+                "description": "\u671f\u521d\u96f6\u552e\u91d1\u989d"
+            },
+            "field_207": {
+                "name": "ThinJSMoney",
+                "description": "\u672c\u6708\u65b0\u589e\u8fdb\u9500\u5dee\u989d"
+            }
+        },
+        "table_61": {
+            "name": "DeptStatPeriod",
+            "description": "\u836f\u5242\u79d1\u53f0\u8d26 \u836f\u5242\u79d1\u7ed3\u8d26\u4e13\u7528",
+            "field_208": {
+                "name": "ThinJSMoney",
+                "description": "\u672c\u6708\u65b0\u589e\u8fdb\u9500\u5dee\u989d"
+            }
+        },
+        "table_62": {
+            "name": "DrugBatch",
+            "description": "\u836f\u54c1\u6279\u6b21\u5e93",
+            "field_209": {
+                "name": "Idm",
+                "description": "\u836f\u54c1Idm"
+            },
+            "field_210": {
+                "name": "BatchNo",
+                "description": "\u6279\u53f7"
+            },
+            "field_211": {
+                "name": "ExpiredDate",
+                "description": "\u6709\u6548\u671f\u81f3"
+            }
+        },
+        "table_63": {
+            "name": "DrugBillFavorite",
+            "description": "\u836f\u54c1\u90e8\u5355\u636e\u6536\u85cf\u5939",
+            "field_212": {
+                "name": "BillXh",
+                "description": "\u5355\u636e\u5e8f\u53f7"
+            },
+            "field_213": {
+                "name": "InvoiceNo",
+                "description": "\u5355\u636e\u53f7"
+            },
+            "field_214": {
+                "name": "OPId",
+                "description": "\u64cd\u4f5c\u4ee3\u7801"
+            }
+        },
+        "table_64": {
+            "name": "DrugCheckBill",
+            "description": "\u836f\u54c1\u76d8\u70b9\u8d26\u5355",
+            "field_215": {
+                "name": "StocktakeStaffId",
+                "description": "\u76d8\u70b9\u4eba\u5458\u4ee3\u7801"
+            },
+            "field_216": {
+                "name": "PFMoney",
+                "description": "\u6279\u53d1\u91d1\u989d"
+            },
+            "field_217": {
+                "name": "JJMoney",
+                "description": "\u8fdb\u4ef7\u91d1\u989d"
+            }
+        },
+        "table_65": {
+            "name": "DrugCheckBillData",
+            "description": "\u836f\u54c1\u76d8\u70b9\u660e\u7ec6",
+            "field_218": {
+                "name": "Idm",
+                "description": "\u836f\u54c1IDM"
+            },
+            "field_219": {
+                "name": "DrugName",
+                "description": "\u836f\u54c1\u540d\u79f0"
+            },
+            "field_220": {
+                "name": "DrugSpec",
+                "description": "\u836f\u54c1\u89c4\u683c"
+            }
+        },
+        "table_66": {
+            "name": "DrugConsumptionBill",
+            "description": "\u836f\u54c1\u6d88\u8017\u8d26\u5355",
+            "field_221": {
+                "name": "WarehouseId",
+                "description": "\u5e93\u623f\u4ee3\u7801"
+            },
+            "field_222": {
+                "name": "AuditMemo",
+                "description": "\u5ba1\u6838\u64cd\u4f5c\u5458"
+            }
+        },
+        "table_67": {
+            "name": "DrugConsumptionBillData",
+            "description": "\u836f\u54c1\u6d88\u8017\u8d26\u5355\u660e\u7ec6",
+            "field_223": {
+                "name": "BillXh",
+                "description": "\u5355\u636e\u5e8f\u53f7"
+            },
+            "field_224": {
+                "name": "DrugSpec",
+                "description": "\u836f\u54c1\u89c4\u683c"
+            },
+            "field_225": {
+                "name": "LSPrice",
+                "description": "\u96f6\u552e\u4ef7"
+            }
+        },
+        "table_68": {
+            "name": "DrugDistrbutor",
+            "description": "\u836f\u54c1\u4f9b\u5e94\u5546",
+            "field_226": {
+                "name": "Id",
+                "description": "\u4f9b\u8d27\u5546\u7f16\u53f7"
+            },
+            "field_227": {
+                "name": "Name",
+                "description": "\u4f9b\u8d27\u5546\u540d\u79f0"
+            },
+            "field_228": {
+                "name": "Address",
+                "description": "\u5730\u5740"
+            },
+            "field_229": {
+                "name": "BankName",
+                "description": "\u5f00\u6237\u94f6\u884c"
+            },
+            "field_230": {
+                "name": "BankAccount",
+                "description": "\u4f9b\u8d27\u5546\u94f6\u884c\u8d26\u6237"
+            }
+        },
+        "table_69": {
+            "name": "DrugInKind",
+            "description": "\u5165\u5e93\u65b9\u5f0f",
+            "field_231": {
+                "name": "Name",
+                "description": "\u5165\u5e93\u65b9\u5f0f\u540d\u79f0"
+            }
+        },
+        "table_70": {
+            "name": "DrugInventory",
+            "description": "\u836f\u54c1\u5e93\u5b58\u8868",
+            "field_232": {
+                "name": "BatchXh",
+                "description": "\u836f\u54c1\u6279\u6b21\u5e8f\u53f7"
+            },
+            "field_233": {
+                "name": "Quantity",
+                "description": "\u5e93\u5b58\u6570\u91cf"
+            },
+            "field_234": {
+                "name": "FreezedQuantity",
+                "description": "\u51bb\u7ed3\u6570\u91cf"
+            },
+            "field_235": {
+                "name": "PFMoney",
+                "description": "\u6279\u53d1\u91d1\u989d"
+            }
+        },
+        "table_71": {
+            "name": "DrugInventoryLog",
+            "description": "\u836f\u54c1\u5e93\u5b58\u6539\u53d8\u65e5\u5fd7",
+            "field_236": {
+                "name": "BatchXh",
+                "description": "\u6279\u6b21\u5e8f\u53f7"
+            },
+            "field_237": {
+                "name": "Quantity",
+                "description": "\u6570\u91cf"
+            },
+            "field_238": {
+                "name": "OriginalBillXh",
+                "description": "\u539f\u59cb\u5355\u636e\u5e8f\u53f7"
+            }
+        },
+        "table_72": {
+            "name": "DrugInvoiceData",
+            "description": "\u836f\u623f\u53d1\u7968\u660e\u7ec6\u8868",
+            "field_239": {
+                "name": "InvoiceTitle",
+                "description": "\u53d1\u7968\u62ac\u5934"
+            }
+        },
+        "table_73": {
+            "name": "DrugLedger",
+            "description": "\u836f\u54c1\u53f0\u8d26\uff08\u6bcf\u4e00\u4e2a\u5e93\u623f\u4e00\u4e2a\u53f0\u8d26\uff09",
+            "field_240": {
+                "name": "WarehouseId",
+                "description": "\u5e93\u623f\u4ee3\u7801"
+            },
+            "field_241": {
+                "name": "EndQuantity",
+                "description": "\u671f\u672b\u6570\u91cf"
+            }
+        },
+        "table_74": {
+            "name": "DrugLedger2",
+            "description": "\u53f0\u8d26\u660e\u7ec6\u4fe1\u606f",
+            "field_242": {
+                "name": "LedgerXh",
+                "description": "\u53f0\u8d26\u5e8f\u53f7"
+            },
+            "field_243": {
+                "name": "BatchXh",
+                "description": "\u6279\u6b21\u5e8f\u53f7"
+            },
+            "field_244": {
+                "name": "DeltaJJMoney",
+                "description": "\u8fdb\u4ef7\u5dee\u989d"
+            }
+        },
+        "table_75": {
+            "name": "DrugLossBill",
+            "description": "\u836f\u54c1\u62a5\u635f\u8d26\u5355",
+            "field_245": {
+                "name": "JJMoney",
+                "description": "\u8fdb\u4ef7\u91d1\u989d"
+            }
+        },
+        "table_76": {
+            "name": "DrugPriceBill",
+            "description": "\u836f\u54c1\u8c03\u4ef7\u8d26\u5355",
+            "field_246": {
+                "name": "PriceData",
+                "description": "\u8c03\u4ef7\u65e5\u671f"
+            }
+        },
+        "table_77": {
+            "name": "IPDrugCumulativeStatistic",
+            "description": "\u836f\u54c1\u7d2f\u8ba1\u53d1\u836f\u8bb0\u5f55\u8868",
+            "field_247": {
+                "name": "WarddId",
+                "description": "\u75c5\u533a\u4ee3\u7801"
+            },
+            "field_248": {
+                "name": "DeptId",
+                "description": "\u79d1\u5ba4\u4ee3\u7801"
+            }
+        },
+        "table_78": {
+            "name": "IPDrugSendBill",
+            "description": "\u4f4f\u9662\u53d1\u836f\u8d26\u5355",
+            "field_249": {
+                "name": "RequestWardId",
+                "description": "\u8bf7\u6c42\u75c5\u533a\u4ee3\u7801"
+            },
+            "field_250": {
+                "name": "PFMoney",
+                "description": "\u6279\u53d1\u91d1\u989d"
+            }
+        },
+        "table_79": {
+            "name": "OPDrugOutBillData",
+            "description": "\u95e8\u8bca\u53d1\u836f\u8d26\u5355\u660e\u7ec6",
+            "field_251": {
+                "name": "DrugName",
+                "description": "\u836f\u54c1\u540d\u79f0"
+            },
+            "field_252": {
+                "name": "Quantity",
+                "description": "\u53d1\u836f\u6570\u91cf"
+            }
+        },
+        "table_80": {
+            "name": "OperationDrugRequest",
+            "description": "\u624b\u672f\u9ebb\u9189\u836f\u54c1\u8bf7\u6c42\u8868",
+            "field_253": {
+                "name": "DetailXh",
+                "description": "\u624b\u672f\u836f\u54c1\u8d39\u7528\u660e\u7ec6\u5e8f\u53f7"
+            },
+            "field_254": {
+                "name": "PatId",
+                "description": "\u75c5\u4eba\u4ee3\u7801"
+            }
+        },
+        "table_81": {
+            "name": "OuterDrugInBillData",
+            "description": "\u5916\u90e8\u5165\u5e93\u8d26\u5355\u660e\u7ec6",
+            "field_255": {
+                "name": "DrugName",
+                "description": "\u836f\u54c1\u540d\u79f0"
+            },
+            "field_256": {
+                "name": "Quantity",
+                "description": "\u836f\u54c1\u6570\u91cf"
+            }
+        },
+        "table_82": {
+            "name": "Pharmacy",
+            "description": "\u836f\u623f\u8868",
+            "field_257": {
+                "name": "DrugPrepareFlagForOP",
+                "description": "\u95e8\u8bca\u914d\u836f\u6a21\u5f0f"
+            }
+        },
+        "table_83": {
+            "name": "PrvasDrug",
+            "description": "\u9759\u8109\u914d\u7f6e\u8868",
+            "field_258": {
+                "name": "PatId",
+                "description": "\u75c5\u4eba\u4ee3\u7801"
+            },
+            "field_259": {
+                "name": "BedId",
+                "description": "\u5e8a\u4f4d\u4ee3\u7801"
+            }
+        },
+        "table_84": {
+            "name": "PriceAddRule",
+            "description": "\u987a\u4ef7\u4f5c\u4ef7\u89c4\u5219",
+            "field_260": {
+                "name": "SpecialFlag",
+                "description": "\u7279\u6b8a\u6807\u5fd7"
+            },
+            "field_261": {
+                "name": "GZFlag",
+                "description": "\u8d35\u91cd\u6807\u5fd7"
+            }
+        },
+        "table_85": {
+            "name": "ChartDocument",
+            "description": "\u75c5\u5386\u6587\u4ef6",
+            "field_262": {
+                "name": "KindId",
+                "description": "\u75c5\u5386\u6587\u4ef6\u7c7b\u578b"
+            },
+            "field_263": {
+                "name": "DocumentContent",
+                "description": "\u75c5\u5386\u6587\u4ef6\u5185\u5bb9"
+            }
+        },
+        "table_86": {
+            "name": "DoctorStandingBookRecord",
+            "description": "\u533b\u751f\u53f0\u8d26\u8868",
+            "field_264": {
+                "name": "PatId",
+                "description": "\u6848\u4f8b\u75c5\u4eba\u4ee3\u7801"
+            }
+        },
+        "table_87": {
+            "name": "IPChartRecord",
+            "description": "\u4f4f\u9662\u75c5\u5386\u8bb0\u5f55",
+            "field_265": {
+                "name": "PatientId",
+                "description": "\u75c5\u4eba\u552f\u4e00ID"
+            },
+            "field_266": {
+                "name": "ChartContent",
+                "description": "\u75c5\u5386\u5185\u5bb9"
+            },
+            "field_267": {
+                "name": "Status",
+                "description": "\u75c5\u5386\u8bb0\u5f55\u72b6\u6001"
+            }
+        },
+        "table_88": {
+            "name": "IPChartRecordContent",
+            "description": "\u4f4f\u9662\u75c5\u5386\u5185\u5bb9\u8868",
+            "field_268": {
+                "name": "ChartRtf",
+                "description": "\u75c5\u5386rtf"
+            },
+            "field_269": {
+                "name": "ChartHtml",
+                "description": "\u75c5\u5386Html"
+            },
+            "field_270": {
+                "name": "DocumentId",
+                "description": "\u75c5\u5386\u6587\u4ef6ID"
+            }
+        },
+        "table_89": {
+            "name": "IPChartRecordData",
+            "description": "\u4f4f\u9662\u8bb0\u5f55\u6570\u636e",
+            "field_271": {
+                "name": "InstanceId",
+                "description": "\u75c5\u5386\u6587\u4ef6ID"
+            },
+            "field_272": {
+                "name": "DocumentName",
+                "description": "\u75c5\u5386\u6587\u4ef6\u540d\u79f0"
+            }
+        },
+        "table_90": {
+            "name": "LeaveHospitalSummary",
+            "description": "\u51fa\u9662\u5c0f\u7ed3",
+            "field_273": {
+                "name": "IPDiag",
+                "description": "\u5165\u9662\u8bca\u65ad"
+            },
+            "field_274": {
+                "name": "ZLJG",
+                "description": "\u6cbb\u7597\u7ed3\u679c"
+            }
+        },
+        "table_91": {
+            "name": "NursingAdverseEvent",
+            "description": "\u62a4\u7406\u4e0d\u826f\u4e8b\u4ef6",
+            "field_275": {
+                "name": "RelatedPerson",
+                "description": "\u76f8\u5173\u8d1f\u8d23\u4eba"
+            },
+            "field_276": {
+                "name": "Reason",
+                "description": "\u65f6\u95f4\u539f\u56e0\u5206\u6790"
+            },
+            "field_277": {
+                "name": "HeadNurse",
+                "description": "\u7b7e\u540d\u62a4\u58eb\u957f"
+            }
+        },
+        "table_92": {
+            "name": "OPChartRecord",
+            "description": "\u95e8\u8bca\u75c5\u5386\u8bb0\u5f55",
+            "field_278": {
+                "name": "InstanceId",
+                "description": "\u75c5\u5386\u5b9e\u4f8bID"
+            }
+        },
+        "table_93": {
+            "name": "OrderMedTemp",
+            "description": "\u533b\u5631\u836f\u54c1",
+            "field_279": {
+                "name": "IPUnit",
+                "description": "\u4f4f\u9662\u5355\u4f4d"
+            }
+        },
+        "table_94": {
+            "name": "BarcodeKind",
+            "description": "\u6761\u7801\u5206\u7c7b",
+            "field_280": {
+                "name": "SpiltFlag",
+                "description": "\u5206\u7ba1\u6807\u7b7e"
+            }
+        },
+        "table_95": {
+            "name": "BarcodeRecord",
+            "description": "\u75c5\u4eba\u68c0\u9a8c\u9879\u76ee\u6761\u7801\u4fe1\u606f\u8868",
+            "field_281": {
+                "name": "BarcodeId",
+                "description": "\u6761\u7801\u53f7"
+            },
+            "field_282": {
+                "name": "PatId",
+                "description": "\u75c5\u4ebaId"
+            }
+        },
+        "table_96": {
+            "name": "ETOrder",
+            "description": "\u7533\u8bf7\u5355\u4e3b\u8868",
+            "field_283": {
+                "name": "VisitXh",
+                "description": "\u5c31\u8bca\u53f7"
+            },
+            "field_284": {
+                "name": "BookStaffName",
+                "description": "\u9884\u7ea6\u4eba\u540d"
+            }
+        },
+        "table_97": {
+            "name": "HISCallInterfaceLog",
+            "description": "HIS\u63a5\u53e3\u65e5\u5fd7\u8868",
+            "field_285": {
+                "name": "HisFeeId",
+                "description": "HIs\u6536\u8d39\u4ee3\u7801"
+            },
+            "field_286": {
+                "name": "HisOrderId",
+                "description": "HIS\u533b\u5631\u53f7"
+            }
+        },
+        "table_98": {
+            "name": "BADdataMapping",
+            "description": "\u75c5\u5386\u9879\u76ee\u5339\u914d",
+            "field_287": {
+                "name": "TableName",
+                "description": "\u8868\u540d"
+            },
+            "field_288": {
+                "name": "BaId",
+                "description": "\u6848\u4f8b\u4ee3\u7801"
+            }
+        },
+        "table_99": {
+            "name": "AntiBIoticUsageAndPurpose",
+            "description": "\u6297\u751f\u7d20\u4f7f\u7528\u76ee\u7684",
+            "field_289": {
+                "name": "VisitId",
+                "description": "\u4f4f\u9662\u75c5\u4eba\u552f\u4e00\u6807\u8bc6"
+            },
+            "field_290": {
+                "name": "Idm",
+                "description": "\u836f\u54c1Idm"
+            },
+            "field_291": {
+                "name": "OperationName",
+                "description": "\u624b\u672f\u540d\u79f0"
+            },
+            "field_292": {
+                "name": "AntibioticICDName",
+                "description": "\u611f\u67d3\u8bca\u65ad\u540d\u79f0"
+            }
+        },
+        "table_100": {
+            "name": "BabyInfo",
+            "description": "\u5a74\u513f\u60c5\u51b5",
+            "field_293": {
+                "name": "BedNo",
+                "description": "\u5a74\u513f\u5e8a\u4f4d\u53f7"
+            },
+            "field_294": {
+                "name": "SerialNo",
+                "description": "\u5a74\u513f\u552f\u4e00\u7f16\u53f7"
+            }
+        },
+        "table_101": {
+            "name": "ClinicDoctorDuty",
+            "description": "\u4e34\u5e8a\u533b\u751f\u503c\u73ed\u8868",
+            "field_295": {
+                "name": "DepyId",
+                "description": "\u503c\u73ed\u79d1\u5ba4\u4ee3\u7801"
+            }
+        },
+        "table_102": {
+            "name": "DailyPatRecord",
+            "description": "\u65e5\u95f4\u75c5\u4eba\u8bb0\u5f55\u8868",
+            "field_296": {
+                "name": "GivenName",
+                "description": "\u75c5\u4eba\u59d3\u540d"
+            },
+            "field_297": {
+                "name": "Mobile",
+                "description": "\u624b\u673a"
+            }
+        },
+        "table_103": {
+            "name": "Diagnosis",
+            "description": "\u4f4f\u9662\u8bca\u65ad\u8868",
+            "field_298": {
+                "name": "StaffId",
+                "description": "\u5efa\u7acb\u8bca\u65ad\u533b\u751f\u4ee3\u7801"
+            },
+            "field_299": {
+                "name": "ICDFlag",
+                "description": "\u8bca\u65ad\u4ee3\u7801\u6807\u5fd7"
+            }
+        },
+        "table_104": {
+            "name": "DrugSendSheet",
+            "description": "\u4f4f\u9662\u53d1\u836f\u5355",
+            "field_300": {
+                "name": "DisableFlag",
+                "description": "\u505c\u7528\u6807\u5fd7"
+            }
+        },
+        "table_105": {
+            "name": "DrugSendSheetRuleData",
+            "description": "\u53d1\u836f\u5355\u5206\u914d\u89c4\u5219\u660e\u7ec6",
+            "field_301": {
+                "name": "RuleXh",
+                "description": "\u89c4\u5219\u5e8f\u53f7"
+            }
+        },
+        "table_106": {
+            "name": "FeeData",
+            "description": "\u4f4f\u9662\u8d39\u7528\u6e05\u5355",
+            "field_302": {
+                "name": "DoctorId",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            },
+            "field_303": {
+                "name": "ExecStaffId",
+                "description": "\u6267\u884c\u4ebaId"
+            },
+            "field_304": {
+                "name": "AccItemId",
+                "description": "\u5927\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_107": {
+            "name": "Fstpage",
+            "description": "\u4f4f\u9662\u75c5\u4eba\u9996\u9875\u4fe1\u606f",
+            "field_305": {
+                "name": "PatId",
+                "description": "\u75c5\u4ebaId"
+            },
+            "field_306": {
+                "name": "BedId",
+                "description": "\u5e8a\u4f4d\u4ee3\u7801"
+            },
+            "field_307": {
+                "name": "InHospitalDept",
+                "description": "\u5165\u9662\u79d1\u5ba4"
+            },
+            "field_308": {
+                "name": "contactman",
+                "description": "\u8054\u7cfb\u4eba"
+            },
+            "field_309": {
+                "name": "contactphone",
+                "description": "\u8054\u7cfb\u7535\u8bdd"
+            }
+        },
+        "table_108": {
+            "name": "FstPageBooking",
+            "description": "\u5165\u9662\u9884\u7ea6\u8868",
+            "field_310": {
+                "name": "diseaseDescript",
+                "description": "\u75c5\u60c5\u63cf\u8ff0"
+            },
+            "field_311": {
+                "name": "YBId",
+                "description": "\u533b\u4fddId"
+            }
+        },
+        "table_109": {
+            "name": "Guarantee",
+            "description": "\u4f4f\u9662\u75c5\u4eba\u62c5\u4fdd\u4fe1\u606f",
+            "field_312": {
+                "name": "InputStaffId",
+                "description": "\u62c5\u4fdd\u4eba\u4ee3\u7801"
+            }
+        },
+        "table_110": {
+            "name": "MedicalRecordDiagnosis",
+            "description": "\u75c5\u4f8b\u8bca\u65ad",
+            "field_313": {
+                "name": "ICD10Id",
+                "description": "ICDIO\u4ee3\u7801"
+            },
+            "field_314": {
+                "name": "InhospitalCase",
+                "description": "\u5165\u9662\u60c5\u51b5"
+            }
+        },
+        "table_111": {
+            "name": "OrderConsultation",
+            "description": "\u4f1a\u8bca\u533b\u5631\uff08\u4f1a\u8bca\u7533\u8bf7\u53ca\u8bb0\u5f55\uff09",
+            "field_315": {
+                "name": "MedicalDescrip",
+                "description": "\u7b80\u8981\u75c5\u53f2"
+            }
+        },
+        "table_112": {
+            "name": "OrderConsultationDoctor",
+            "description": "\u4f1a\u8bca\u533b\u751f\u6e05\u5355",
+            "field_316": {
+                "name": "StaffId",
+                "description": "\u533b\u751fId"
+            },
+            "field_317": {
+                "name": "ConsultationResult",
+                "description": "\u4f1a\u8bca\u7ed3\u679c"
+            }
+        },
+        "table_113": {
+            "name": "SettlementMoney",
+            "description": "\u4f4f\u9662\u7ed3\u7b97\u91d1\u989d",
+            "field_318": {
+                "name": "JSSJH",
+                "description": "\u7ed3\u7b97\u6536\u636e\u53f7"
+            },
+            "field_319": {
+                "name": "BankName",
+                "description": "\u5f00\u6237\u884c"
+            }
+        },
+        "table_114": {
+            "name": "TemplateOrder",
+            "description": "\u4f4f\u9662\u534f\u5b9a\u65b9\u836f\u54c1\u5904\u65b9",
+            "field_320": {
+                "name": "OrderContent",
+                "description": "\u533b\u5631\u5185\u5bb9"
+            }
+        },
+        "table_115": {
+            "name": "WardWorkLog",
+            "description": "\u75c5\u533a\u5de5\u4f5c\u65e5\u5fd7",
+            "field_321": {
+                "name": "WardId",
+                "description": "\u75c5\u533a\u4ee3\u7801"
+            },
+            "field_322": {
+                "name": "Die",
+                "description": "\u6b7b\u4ea1"
+            },
+            "field_323": {
+                "name": "StayHospital",
+                "description": "\u7559\u9662\u4eba\u6570"
+            }
+        },
+        "table_116": {
+            "name": "staffNurse",
+            "description": "\u5de5\u4f5c\u4eba\u5458\u62a4\u58eb",
+            "field_324": {
+                "name": "StaffId",
+                "description": "\u62a4\u58ebId"
+            },
+            "field_325": {
+                "name": "StaffName",
+                "description": "\u62a4\u58eb\u540d\u79f0"
+            },
+            "field_326": {
+                "name": "DeptName",
+                "description": "\u5bf9\u5e94\u79d1\u5ba4\u540d\u79f0"
+            }
+        },
+        "table_117": {
+            "name": "BookingRegister",
+            "description": "\u9884\u7ea6\u6302\u53f7\u8868",
+            "field_327": {
+                "name": "ReservationId",
+                "description": "\u9884\u7ea6\u8d44\u6e90\u53f7"
+            },
+            "field_328": {
+                "name": "PatNme",
+                "description": "\u60a3\u8005\u540d\u79f0"
+            },
+            "field_329": {
+                "name": "Phone",
+                "description": "\u7535\u8bdd"
+            },
+            "field_330": {
+                "name": "address",
+                "description": "\u5730\u5740"
+            }
+        },
+        "table_118": {
+            "name": "BookingUser",
+            "description": "\u9884\u7ea6\u8bca\u65ad\u75c5\u4eba\u4fe1\u606f\u4e0a\u4f20",
+            "field_331": {
+                "name": "Patientname",
+                "description": "\u75c5\u4eba\u59d3\u540d"
+            },
+            "field_332": {
+                "name": "MedicineCardNo",
+                "description": "\u9884\u7ea6\u5361\u53f7"
+            },
+            "field_333": {
+                "name": "IdentityCardNo",
+                "description": "\u8bc1\u4ef6\u53f7"
+            }
+        },
+        "table_119": {
+            "name": "Diagnosis",
+            "description": "\u95e8\u8bca\u8bca\u65ad\u8868",
+            "field_334": {
+                "name": "IC\u76840Id",
+                "description": "\u8bca\u65ad\u4ee3\u7801"
+            }
+        },
+        "table_120": {
+            "name": "Recipe",
+            "description": "\u95e8\u8bca\u5904\u65b9\u8868",
+            "field_335": {
+                "name": "YBId",
+                "description": "\u533b\u4fdd\u4ee3\u7801"
+            },
+            "field_336": {
+                "name": "PatId",
+                "description": "\u75c5\u4eba\u4ee3\u7801"
+            }
+        },
+        "table_121": {
+            "name": "RecipeConsultationDoctor",
+            "description": "\u4f1a\u8bca\u533b\u751f\u8868",
+            "field_337": {
+                "name": "StaffId",
+                "description": "\u4f1a\u8bca\u533b\u751f\u4ee3\u7801"
+            },
+            "field_338": {
+                "name": "ConsultationResult",
+                "description": "\u4f1a\u8bca\u7ed3\u679c"
+            }
+        },
+        "table_122": {
+            "name": "RegBookingSetting",
+            "description": "\u9884\u7ea6\u8d44\u6e90\u8868",
+            "field_339": {
+                "name": "BookingXh",
+                "description": "\u9884\u7ea6\u5e8f\u53f7"
+            }
+        },
+        "table_123": {
+            "name": "RegDept",
+            "description": "\u6302\u53f7\u6e90",
+            "field_340": {
+                "name": "StaffId",
+                "description": "\u533b\u751f\u4ee3\u7801"
+            }
+        },
+        "table_124": {
+            "name": "Register",
+            "description": "\u6302\u53f7\u8868",
+            "field_341": {
+                "name": "Patname",
+                "description": "\u75c5\u4eba\u59d3\u540d"
+            },
+            "field_342": {
+                "name": "AnmeIdenAddress",
+                "description": "\u6237\u53e3\u5730\u5740"
+            }
+        },
+        "table_125": {
+            "name": "Settlement",
+            "description": "\u75c5\u4eba\u95e8\u8bca\u7ed3\u7b97",
+            "field_343": {
+                "name": "PatId",
+                "description": "\u75c5\u4eba\u4ee3\u7801"
+            },
+            "field_344": {
+                "name": "PatName",
+                "description": "\u60a3\u8005\u59d3\u540d"
+            },
+            "field_345": {
+                "name": "credenceXh",
+                "description": "\u533b\u4fdd\u51ed\u8bc1"
+            }
+        },
+        "table_126": {
+            "name": "CheckAccount",
+            "description": "\u533b\u4fdd\u5bf9\u8d26\u5355",
+            "field_346": {
+                "name": "Staffid",
+                "description": "\u804c\u5de5\u4ee3\u7801"
+            }
+        },
+        "table_127": {
+            "name": "DrugItemData",
+            "description": "\u533b\u4fdd\u836f\u54c1\u9879\u76ee\u5185\u90e8\u5bf9\u7167\u8868",
+            "field_347": {
+                "name": "YBDrugItemId",
+                "description": "\u533b\u4fdd\u836f\u54c1\u9879\u76ee\u4ee3\u7801"
+            }
+        },
+        "table_128": {
+            "name": "YBPatKind",
+            "description": "\u533b\u4fdd\u5165\u9662\u7c7b\u578b",
+            "field_348": {
+                "name": "Name",
+                "description": "\u540d\u79f0"
+            },
+            "field_349": {
+                "name": "SysFlag",
+                "description": "\u7cfb\u7edf\u6807\u5fd7"
+            }
+        }
+    }
+}

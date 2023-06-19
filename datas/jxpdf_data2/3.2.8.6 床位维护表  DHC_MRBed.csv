@@ -1,0 +1,9 @@
+,序号,字段名称,说明,类型,备注
+1,1,MR_BZNum,备用床位数,Number,
+2,2,MR_Date,日期,Date,
+3,3,MR_GDNum,固定床位数,Number,
+4,4,MR_Loc,科室,"Designative
+Reference",CT_Loc
+5,5,MR_SYNum,实有床数,Number,
+6,6,MR_Ward,病区,"Designative
+Reference",PAC_Ward
