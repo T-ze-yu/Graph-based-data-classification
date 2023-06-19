@@ -3,15 +3,18 @@
 每个行业都有自己的一些数据分类分级标准，而将自己的数据资产按这个标准进行分类管理，往往工作量极为巨大，而本项目借助知识图谱和nlp的一些手段尽量去简化和自动化的进行数据的归类与管理，大概思路如下：
 
 1、通过行业的数据分类分级标准，结合实际数据制定分类标准图谱，如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/46d950e1b3cf4f42845a21bfcba7a13b.png)
+![image](https://github.com/T-ze-yu/Graph-based-data-classification/assets/75960285/eb2d6025-c0e9-4106-80c7-8b70d0c03cbb)
+
 
 2、通过扫描数据资产，构建数据资产图谱，如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/eea458453a8142ad951022d9beb0f99a.png)
+![image](https://github.com/T-ze-yu/Graph-based-data-classification/assets/75960285/d18546e6-fc0b-45c9-8a04-7ea76f371874)
+
 
 3、通过nlp的一些算法将两个图谱进行关联，从而达到分类分级的目的。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a7de035e75434f6d9e925f6f3423c820.png)
+![image](https://github.com/T-ze-yu/Graph-based-data-classification/assets/75960285/2bd18210-a75a-446a-911d-745f8077d322)
+
 
 主要的一些脚本的功能如下：
 
